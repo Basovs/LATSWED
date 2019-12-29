@@ -74,7 +74,7 @@ nav ul li a {
 nav ul li a:hover {
     transform: scale(1.07);
     // color: #1e7cfc;
-    color: #ff7a53;
+    color: #fa6337;
 }
 .btn-contact-us {
     color: #ffffff;
@@ -88,7 +88,8 @@ nav ul li a:hover {
     font-weight: 700;
 }
 .btn-contact-us:hover {
-    background-image: linear-gradient(#512da8, #512da8);
+    // background-image: linear-gradient(#512da8, #512da8);
+    background-color: #fa6337;
 }
 header {
     min-height: 98vh;
@@ -235,18 +236,20 @@ footer {
     }
     header {
         padding: unset;
+        flex-direction: row-reverse;
+        align-items: center;
+        padding: 0 200px 0 60px;
         .wellcomeText {
             max-inline-size: 1000px;
-            margin: 0 0 0 60px;
             p {
                 max-inline-size: 450px;
             }
         }
         .latswed-logo {
-            position: absolute;
-            right: 50vw;
-            bottom: 24vh;
-            inline-size: 100px;
+            // position: absolute;
+            // right: 10vw;
+            // bottom: 24vh;
+            inline-size: 200px;
         }
     }
     .section1 {
@@ -357,9 +360,6 @@ footer {
 }
 
 @media (min-width: 1126px) {
-    p {
-        font-size: 1.2rem;
-    }
     nav {
         flex-direction: row;
         margin: unset;
