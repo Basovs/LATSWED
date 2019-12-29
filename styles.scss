@@ -99,7 +99,7 @@ header {
     min-height: 100vh;
     // background-color: #dfecff;
     // background-color: #fff4ee;
-    background-image: radial-gradient(circle at 50% 0, #39495183, #0c202a85 74%),
+    background-image: radial-gradient(circle at 50% 0, #39495199, #0c202a99 99%),
         url(img/jaunaa2.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -134,6 +134,7 @@ header {
     .partner-container {
         display: flex;
         justify-content: space-evenly;
+        align-items: center;
         .jrMarkteknik {
             block-size: 30px;
         }
