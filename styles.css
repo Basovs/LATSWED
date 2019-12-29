@@ -366,8 +366,22 @@ header .latswed-logo {
 }
 
 footer {
-  height: 500px;
-  background: #100e17;
+  background-color: #100e17;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 50px 16px 200px 16px;
 }
 
 .img-wrapper {
@@ -528,10 +542,6 @@ footer {
   }
   .section3 form .btn-contact-us {
     margin: unset;
-  }
-  footer {
-    height: 500px;
-    background: #100e17;
   }
 }
 

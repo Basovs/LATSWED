@@ -294,8 +294,13 @@ header {
 }
 
 footer {
-    height: 500px;
-    background: #100e17;
+    background-color: #100e17;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 16px 200px 16px;
 }
 
 .img-wrapper {
@@ -434,11 +439,6 @@ footer {
                 margin: unset;
             }
         }
-    }
-
-    footer {
-        height: 500px;
-        background: #100e17;
     }
 }
 
