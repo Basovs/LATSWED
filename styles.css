@@ -227,6 +227,14 @@ header .latswed-logo {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  /* The container */
+  /* Hide the browser's default checkbox */
+  /* Create a custom checkbox */
+  /* On mouse-over, add a grey background color */
+  /* When the checkbox is checked, add a blue background */
+  /* Create the checkmark/indicator (hidden when not checked) */
+  /* Show the checkmark when checked */
+  /* Style the checkmark/indicator */
 }
 
 .section3__title {
@@ -251,7 +259,7 @@ header .latswed-logo {
   padding: 0 16px;
 }
 
-.section3 form label input {
+.section3 form label .input {
   inline-size: 100%;
   display: block;
   border-radius: 8px;
@@ -263,7 +271,7 @@ header .latswed-logo {
   margin: 3px 0 0 0;
 }
 
-.section3 form label input:focus {
+.section3 form label .input:focus {
   border: 2px solid #20ad3c;
 }
 
@@ -285,6 +293,76 @@ header .latswed-logo {
 
 .section3 form .btn-contact-us {
   margin: 0 16px;
+}
+
+.section3 .checkbox-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 3px 0 0 0;
+}
+
+.section3 .checkbox-wrapper {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 1rem;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.section3 .checkbox-wrapper input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.section3 .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #312d3c;
+  border-radius: 8px;
+}
+
+.section3 .checkbox-wrapper:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+.section3 .checkbox-wrapper input:checked ~ .checkmark {
+  background-color: #ccc;
+}
+
+.section3 .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.section3 .checkbox-wrapper input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.section3 .checkbox-wrapper .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid #312d3c;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 footer {
@@ -420,7 +498,7 @@ footer {
     inline-size: unset;
     padding: unset;
   }
-  .section3 form label input {
+  .section3 form label .input {
     display: block;
     border-radius: 8px;
     font-size: 1rem;
@@ -431,7 +509,7 @@ footer {
     color: #ffffff;
     margin: 3px 0 0 0;
   }
-  .section3 form label input:focus {
+  .section3 form label .input:focus {
     border: 2px solid #20ad3c;
   }
   .section3 form label textarea {

@@ -213,43 +213,86 @@
             <h2 class="section3__title">Karriär</h2>
             <form name="karriär" netlify>
                 <label for="full-name">
-                    Full name:
+                    Pilns vārds:*
                     <input
                         type="text"
                         name="full-name"
                         id="full-name"
+                        class="input"
                         required
                     />
                 </label>
                 <label for="profession">
-                    Profession:
-                    <input
-                        type="text"
+                    Profesija:*
+                    <select
                         name="profession"
                         id="profession"
+                        class="input"
                         required
-                    />
+                    >
+                        <option value="Bruģētājs">Bruģētājs</option>
+                        <option value="Demontāžnieks">Demontāžnieks</option>
+                        <option value="Santehniķis">Santehniķis</option>
+                        <option value="Starpsienu meistars"
+                            >Starpsienu meistars</option
+                        >
+                        <option value="Betonētājs">Betonētājs</option>
+                        <option value="Flīzētājs">Flīzētājs</option>
+                        <option value="Palīgmeistars">Palīgmeistars</option>
+                    </select>
                 </label>
                 <label for="experiance">
-                    Experiance:
-                    <input
-                        type="text"
+                    Pieredze:*
+                    <select
                         name="experiance"
                         id="experiance"
+                        class="input"
                         required
-                    />
+                    >
+                        <option value="1year">1 year</option>
+                        <option value="2years">2 years</option>
+                        <option value="3years">3 years</option>
+                        <option value="4years">4 years</option>
+                        <option value="5yearsOrMore">5 years or more</option>
+                    </select>
                 </label>
                 <label for="driver-licence">
-                    Driver licence:
+                    Tiesības:*
                     <input
                         type="text"
                         name="driver-licence"
                         id="driver-licence"
+                        class="input"
                         required
                     />
                 </label>
+                <label for="checkbox-container"
+                    >Valodas zināšanas sarunlīmenī darba jomā:*
+                    <div name="checkbox-container" class="checkbox-container">
+                        <label class="checkbox-wrapper"
+                            >Zviedru
+                            <input type="checkbox" />
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="checkbox-wrapper"
+                            >Angļu
+                            <input type="checkbox" />
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="checkbox-wrapper"
+                            >Latviešu
+                            <input type="checkbox" />
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="checkbox-wrapper"
+                            >Krievu
+                            <input type="checkbox" />
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>
+                </label>
                 <label for="textarea">
-                    Free text:
+                    Papildinformācija kas mums būtu jāzin:
                     <textarea
                         name="textarea"
                         id="textarea"
