@@ -169,12 +169,19 @@ header .latswed-logo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.section1 .partner-container__item {
+  min-inline-size: 94px;
+  margin: 30px 0;
 }
 
 .section1 .partner-container .jrMarkteknik {
@@ -398,7 +405,7 @@ footer {
   block-size: 100%;
 }
 
-@media (min-width: 720px) {
+@media (min-width: 812px) {
   h1 {
     font-size: 3.438rem;
     line-height: 1.1818;
@@ -441,6 +448,9 @@ footer {
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
     padding: 50px 60px;
+  }
+  .section1 .partner-container__item {
+    margin: 0 30px;
   }
   .section1 .partner-container .jrMarkteknik {
     block-size: 50px;
