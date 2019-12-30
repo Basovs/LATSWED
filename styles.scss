@@ -332,7 +332,8 @@ footer {
         padding: unset;
         flex-direction: row-reverse;
         align-items: center;
-        padding: 0 200px 0 60px;
+        justify-content: space-between;
+        padding: 0 60px 0 60px;
         .wellcomeText {
             max-inline-size: 1000px;
             p {
@@ -343,7 +344,7 @@ footer {
             // position: absolute;
             // right: 10vw;
             // bottom: 24vh;
-            inline-size: 200px;
+            inline-size: 260px;
         }
     }
     .section1 {
@@ -410,10 +411,11 @@ footer {
             display: grid;
             justify-content: center;
             gap: 30px;
+            // inline-size: 30vw;
             label {
                 display: block;
                 color: #ffffff;
-                inline-size: unset;
+                inline-size: 40vw;
                 padding: unset;
                 .input {
                     display: block;
@@ -421,7 +423,6 @@ footer {
                     font-size: 1rem;
                     padding: 1rem;
                     border: 2px solid transparent;
-                    inline-size: 50vw;
                     background-color: #312d3c;
                     color: #ffffff;
                     margin: 3px 0 0 0;
@@ -437,7 +438,7 @@ footer {
                     border: 2px solid transparent;
                     background-color: #312d3c;
                     color: #ffffff;
-                    inline-size: 50vw;
+                    inline-size: 40vw;
                     margin: 3px 0 0 0;
                     &:focus {
                         border: 2px solid #20ad3c;

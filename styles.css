@@ -422,7 +422,10 @@ footer {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    padding: 0 200px 0 60px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 0 60px 0 60px;
   }
   header .wellcomeText {
     max-inline-size: 1000px;
@@ -431,7 +434,7 @@ footer {
     max-inline-size: 450px;
   }
   header .latswed-logo {
-    inline-size: 200px;
+    inline-size: 260px;
   }
   .section1 {
     padding: 60px 0;
@@ -521,7 +524,7 @@ footer {
   .section3 form label {
     display: block;
     color: #ffffff;
-    inline-size: unset;
+    inline-size: 40vw;
     padding: unset;
   }
   .section3 form label .input {
@@ -530,7 +533,6 @@ footer {
     font-size: 1rem;
     padding: 1rem;
     border: 2px solid transparent;
-    inline-size: 50vw;
     background-color: #312d3c;
     color: #ffffff;
     margin: 3px 0 0 0;
@@ -546,7 +548,7 @@ footer {
     border: 2px solid transparent;
     background-color: #312d3c;
     color: #ffffff;
-    inline-size: 50vw;
+    inline-size: 40vw;
     margin: 3px 0 0 0;
   }
   .section3 form label textarea:focus {
