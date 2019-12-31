@@ -96,7 +96,7 @@ nav ul li a:hover {
     background-color: #fa6337;
 }
 header {
-    min-height: 100vh;
+    block-size: 100vh;
     // background-color: #dfecff;
     // background-color: #fff4ee;
     background-image: radial-gradient(circle at 50% 0, #39495199, #0c202a99 99%),
@@ -110,6 +110,14 @@ header {
     position: relative;
     overflow: hidden;
     flex-direction: column;
+    &::after {
+        block-size: 100vh;
+        inline-size: 100vw;
+        background-image: #000000;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
     .wellcomeText {
         color: white;
         p {
@@ -345,6 +353,7 @@ footer {
             // right: 10vw;
             // bottom: 24vh;
             inline-size: 260px;
+            // margin: unset;
         }
     }
     .section1 {
