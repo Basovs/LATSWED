@@ -386,6 +386,16 @@ header .latswed-logo {
   transform: rotate(45deg);
 }
 
+.section3 .career-text {
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+}
+
+.section3 .career-text span {
+  color: #fa6337;
+}
+
 footer {
   background-color: #100e17;
   color: #ffffff;
