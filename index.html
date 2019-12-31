@@ -213,7 +213,7 @@
         <section class="section3" id="section3">
             <h2 class="section3__title">Karriär</h2>
             <form name="karriär" netlify>
-                <label for="full-name">
+                <label for="full-name" class="label">
                     Pilns vārds:*
                     <input
                         type="text"
@@ -223,7 +223,7 @@
                         required
                     />
                 </label>
-                <label for="profession">
+                <label for="profession" class="label">
                     Profesija:*
                     <select
                         name="profession"
@@ -242,7 +242,7 @@
                         <option value="Palīgmeistars">Palīgmeistars</option>
                     </select>
                 </label>
-                <label for="experiance">
+                <label for="experiance" class="label">
                     Pieredze:*
                     <select
                         name="experiance"
@@ -257,7 +257,7 @@
                         <option value="5yearsOrMore">5 gadi jeb vairāk</option>
                     </select>
                 </label>
-                <label for="driver-licence">
+                <label for="driver-licence" class="label">
                     Tiesības:*
                     <input
                         type="text"
@@ -267,8 +267,10 @@
                         required
                     />
                 </label>
-                <label for="checkbox-container"
-                    >Valodas zināšanas sarunlīmenī darba jomā:*
+                <div>
+                    <p class="checkbox-label">
+                        Valodas zināšanas sarunlīmenī darba jomā:*
+                    </p>
                     <div name="checkbox-container" class="checkbox-container">
                         <label class="checkbox-wrapper"
                             >Zviedru
@@ -291,8 +293,8 @@
                             <span class="checkmark"></span>
                         </label>
                     </div>
-                </label>
-                <label for="textarea">
+                </div>
+                <label for="textarea" class="label">
                     Papildinformācija kas mums būtu jāzin:
                     <textarea
                         name="textarea"

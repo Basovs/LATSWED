@@ -31,7 +31,7 @@ nav {
     // background-color: #dfecff;
     position: fixed;
     width: 100%;
-    z-index: 1;
+    z-index: 2;
     transition: all 0.2s ease-in-out;
     display: flex;
     flex-direction: column;
@@ -111,14 +111,16 @@ header {
     overflow: hidden;
     flex-direction: column;
     &::after {
+        content: "";
         block-size: 100vh;
         inline-size: 100vw;
-        background-image: #000000;
+        background-color: #00000050;
         position: absolute;
         top: 0;
         left: 0;
     }
     .wellcomeText {
+        z-index: 1;
         color: white;
         p {
             padding-top: 20px;
@@ -128,6 +130,7 @@ header {
     }
     .latswed-logo {
         margin: 0 0 40px 0;
+        z-index: 1;
     }
 }
 .section1 {
@@ -195,11 +198,9 @@ header {
         display: grid;
         justify-content: center;
         gap: 20px;
-        label {
+        .label {
             display: block;
             color: #ffffff;
-            inline-size: 100vw;
-            padding: 0 16px;
             .input {
                 inline-size: 100%;
                 display: block;
@@ -229,9 +230,9 @@ header {
                 }
             }
         }
-        .btn-contact-us {
-            margin: 0 16px;
-        }
+    }
+    .checkbox-label {
+        color: #ffffff;
     }
     .checkbox-container {
         display: flex;
@@ -242,6 +243,7 @@ header {
     /* The container */
     .checkbox-wrapper {
         display: block;
+        inline-size: 50%;
         position: relative;
         padding-left: 35px;
         margin-bottom: 12px;
@@ -251,6 +253,7 @@ header {
         -moz-user-select: none;
         -ms-user-select: none;
         user-select: none;
+        color: #ffffff;
     }
 
     /* Hide the browser's default checkbox */
@@ -420,6 +423,7 @@ footer {
             display: grid;
             justify-content: center;
             gap: 30px;
+            inline-size: 40vw;
             // inline-size: 30vw;
             label {
                 display: block;
