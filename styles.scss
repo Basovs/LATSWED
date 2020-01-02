@@ -81,6 +81,7 @@ nav ul li a:hover {
     color: #fa6337;
 }
 .btn-contact-us {
+    font-family: inherit;
     color: #ffffff;
     // background-image: linear-gradient(#6942c7, #512da8);
     background-color: #ff7a53;
@@ -204,6 +205,7 @@ header {
         .label {
             display: block;
             color: #ffffff;
+            font-family: inherit;
             .input {
                 inline-size: 100%;
                 display: block;
@@ -219,6 +221,7 @@ header {
                 }
             }
             textarea {
+                font-family: inherit;
                 display: block;
                 border-radius: 8px;
                 font-size: 1rem;
@@ -257,16 +260,16 @@ header {
         -ms-user-select: none;
         user-select: none;
         color: #ffffff;
+        /* Hide the browser's default checkbox */
+        input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+            height: 0;
+            width: 0;
+        }
     }
 
-    /* Hide the browser's default checkbox */
-    .checkbox-wrapper input {
-        position: absolute;
-        opacity: 0;
-        cursor: pointer;
-        height: 0;
-        width: 0;
-    }
     /* Create a custom checkbox */
     .checkmark {
         position: absolute;
@@ -383,9 +386,6 @@ footer {
             .partner-wrapper {
                 inline-size: unset;
             }
-            &__item {
-                // margin: 0 30px;
-            }
             .jrMarkteknik {
                 block-size: 50px;
             }
@@ -475,6 +475,9 @@ footer {
             .btn-contact-us {
                 margin: unset;
             }
+        }
+        .checkbox-wrapper {
+            inline-size: unset;
         }
     }
 }

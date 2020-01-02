@@ -21,7 +21,7 @@
                 <li><a href="#privatkunder">Privatkunder</a></li>
                 <li><a href="#section3">Karriär</a></li>
             </ul>
-            <button class="btn-contact-us" href="#bli-kontaktad">
+            <button class="btn-contact-us">
                 Bli kontaktad
             </button>
         </nav>
@@ -239,9 +239,12 @@
                     <select
                         name="profession"
                         id="profession"
-                        class="input"
+                        class="input .select"
                         required
                     >
+                        <option value="" disabled selected
+                            >Izvēlies profesiju</option
+                        >
                         <option value="Bruģētājs">Bruģētājs</option>
                         <option value="Demontāžnieks">Demontāžnieks</option>
                         <option value="Santehniķis">Santehniķis</option>
@@ -251,7 +254,7 @@
                         <option value="Betonētājs">Betonētājs</option>
                         <option value="Flīzētājs">Flīzētājs</option>
                         <option value="Namdaris">Namdaris</option>
-                        <option value="Palīgmeistars">Meistara palīgs</option>
+                        <option value="Meistara palīgs">Meistara palīgs</option>
                     </select>
                 </label>
                 <label for="experiance" class="label">
@@ -293,17 +296,17 @@
                         </label>
                         <label class="checkbox-wrapper" for="anglu-checkbox"
                             >Angļu
-                            <input type="checkbox" id="anglu-checkbox"/>
+                            <input type="checkbox" id="anglu-checkbox" />
                             <span class="checkmark"></span>
                         </label>
                         <label class="checkbox-wrapper" for="latviesu-checkbox"
                             >Latviešu
-                            <input type="checkbox" id="latviesu-checkbox"/>
+                            <input type="checkbox" id="latviesu-checkbox" />
                             <span class="checkmark"></span>
                         </label>
                         <label class="checkbox-wrapper" for="krievu-checkbox"
                             >Krievu
-                            <input type="checkbox" id="krievu-checkbox"/>
+                            <input type="checkbox" id="krievu-checkbox" />
                             <span class="checkmark"></span>
                         </label>
                     </div>

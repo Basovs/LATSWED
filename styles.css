@@ -104,6 +104,7 @@ nav ul li a:hover {
 }
 
 .btn-contact-us {
+  font-family: inherit;
   color: #ffffff;
   background-color: #ff7a53;
   padding: 0.8rem 2rem;
@@ -256,7 +257,6 @@ header .latswed-logo {
       -ms-flex-pack: center;
           justify-content: center;
   /* The container */
-  /* Hide the browser's default checkbox */
   /* Create a custom checkbox */
   /* On mouse-over, add a grey background color */
   /* When the checkbox is checked, add a blue background */
@@ -283,6 +283,7 @@ header .latswed-logo {
 .section3 form .label {
   display: block;
   color: #ffffff;
+  font-family: inherit;
 }
 
 .section3 form .label .input {
@@ -302,6 +303,7 @@ header .latswed-logo {
 }
 
 .section3 form .label textarea {
+  font-family: inherit;
   display: block;
   border-radius: 8px;
   font-size: 1rem;
@@ -346,6 +348,7 @@ header .latswed-logo {
   -ms-user-select: none;
   user-select: none;
   color: #ffffff;
+  /* Hide the browser's default checkbox */
 }
 
 .section3 .checkbox-wrapper input {
@@ -588,6 +591,9 @@ footer {
   }
   .section3 form .btn-contact-us {
     margin: unset;
+  }
+  .section3 .checkbox-wrapper {
+    inline-size: unset;
   }
 }
 
