@@ -1,6 +1,6 @@
-alert(
-    "Latswed Konsult AB website is under construction but feel free to use it!."
-)
+// alert(
+//     "Latswed Konsult AB website is under construction but feel free to use it!."
+// )
 
 window.onscroll = function() {
     changeOnScroll()
