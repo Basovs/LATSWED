@@ -441,7 +441,7 @@ footer {
             display: flex;
             .img-wrapper {
                 min-inline-size: 50%;
-                block-size: 30vw;
+                max-block-size: 600px;
                 margin: 0;
             }
             .article-div {
