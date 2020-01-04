@@ -15,9 +15,10 @@ function changeOnScroll() {
 }
 
 window.addEventListener("scroll", function() {
-    const target = document.querySelector(".parallax")
     let scrolled = window.pageYOffset
     let positiveRate = scrolled * 0.3
-
-    target.style.transform = `translate3d(0px, ${positiveRate}px, 0px)`
+    const targets = document.querySelectorAll(".parallax")
+    for (let i = 0; i < targets.length; i++) {
+        targets[i].style.transform = `translate3d(0px, ${positiveRate}px, 0px)`
+    }
 })

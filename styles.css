@@ -6,8 +6,8 @@
 }
 
 body {
-  font-family: urbane, sans-serif;
-  font-weight: 300;
+  font-family: roboto, sans-serif;
+  font-weight: 400;
   font-style: normal;
   color: #33475b;
   -moz-osx-font-smoothing: grayscale;
@@ -15,6 +15,7 @@ body {
 
 h1 {
   font-size: 2.2rem;
+  font-weight: 900;
 }
 
 h2 {
@@ -26,7 +27,8 @@ h3 {
 }
 
 p {
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
+  font-size: 18px;
 }
 
 nav {
@@ -52,6 +54,10 @@ nav {
   margin-left: 100vw;
 }
 
+.wrapper {
+  max-inline-size: 2304px;
+}
+
 .onScroll {
   background-color: #ffffff;
   border-bottom: 1px solid rgba(140, 157, 184, 0.4);
@@ -65,7 +71,7 @@ nav {
   color: #33475b;
   color: white;
   text-decoration: none;
-  font-weight: 700;
+  font-weight: 900;
   font-size: 2rem;
 }
 
@@ -95,6 +101,7 @@ nav ul li a {
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   font-weight: 700;
+  font-weight: 18px;
 }
 
 nav ul li a:hover {
@@ -126,18 +133,8 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 0 16px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   position: relative;
   overflow: hidden;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
 }
 
 header::after {
@@ -150,6 +147,23 @@ header::after {
   left: 0;
 }
 
+header .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  block-size: 100vh;
+}
+
 header .wellcomeText {
   z-index: 1;
   color: white;
@@ -157,8 +171,7 @@ header .wellcomeText {
 
 header .wellcomeText p {
   padding-top: 20px;
-  line-height: 34px;
-  letter-spacing: 1px;
+  line-height: 28px;
 }
 
 header .latswed-logo {
@@ -449,26 +462,16 @@ footer {
   }
   header {
     padding: unset;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: row-reverse;
-            flex-direction: row-reverse;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
     padding: 0 60px 0 60px;
   }
   header .wellcomeText {
     max-inline-size: 1000px;
   }
   header .wellcomeText p {
-    max-inline-size: 500px;
+    max-inline-size: 540px;
   }
   header .latswed-logo {
-    inline-size: 260px;
+    inline-size: 140px;
   }
   .section1 {
     padding: 60px 0;
@@ -484,7 +487,7 @@ footer {
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
-    padding: 50px 60px;
+    padding: 0 60px;
   }
   .section1 .partner-container .partner-wrapper {
     inline-size: unset;
