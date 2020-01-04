@@ -127,12 +127,6 @@ nav ul li a:hover {
 }
 
 header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   block-size: 100vh;
   background-image: radial-gradient(circle at 50% 0, #39495199, #0c202a99 99%), url(img/jaunaa2.jpg);
   background-position: center;
@@ -168,6 +162,7 @@ header .wrapper {
       -ms-flex-direction: column;
           flex-direction: column;
   block-size: 100vh;
+  margin: 0 auto;
 }
 
 header .wellcomeText {
