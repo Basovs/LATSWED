@@ -251,8 +251,8 @@ header .latswed-logo {
 }
 
 .section2__item .img-wrapper {
-  max-block-size: 650px;
   margin: 0 0 20px 0;
+  block-size: 80vw;
 }
 
 .section2__item .article-div__article {

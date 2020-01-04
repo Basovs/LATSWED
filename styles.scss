@@ -197,8 +197,8 @@ header {
     &__item {
         margin: 0 0 60px 0;
         .img-wrapper {
-            max-block-size: 650px;
             margin: 0 0 20px 0;
+            block-size: 80vw;
         }
         .article-div__article {
             padding: 0 16px;
