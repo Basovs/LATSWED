@@ -58,6 +58,12 @@ nav {
   margin-left: 100vw;
 }
 
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+       appearance: none;
+}
+
 .wrapper {
   max-inline-size: 1300px;
   margin: 0 auto;
