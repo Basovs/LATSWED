@@ -52,6 +52,7 @@ nav {
 }
 .wrapper {
     max-inline-size: 2304px;
+    margin: 0 auto;
 }
 .onScroll {
     background-color: #ffffff;
@@ -137,7 +138,6 @@ header {
         align-items: center;
         flex-direction: column;
         block-size: 100vh;
-        margin: 0 auto;
     }
     .wellcomeText {
         z-index: 1;
