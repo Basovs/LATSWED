@@ -111,6 +111,8 @@ nav ul li a:hover {
     background-color: #fa6337;
 }
 header {
+    display: flex;
+    justify-content: center;
     block-size: 100vh;
     // background-color: #dfecff;
     // background-color: #fff4ee;
