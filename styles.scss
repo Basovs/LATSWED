@@ -145,6 +145,9 @@ header {
     .wellcomeText {
         z-index: 1;
         color: white;
+        span {
+            color: #ff7a53;
+        }
         p {
             padding-top: 20px;
             line-height: 28px;
@@ -201,6 +204,7 @@ header {
             padding: 0 16px;
             &__title {
                 margin: 0 0 10px 0;
+                color: #2d3339;
             }
             &:nth-child(even) {
                 flex-direction: row-reverse;
