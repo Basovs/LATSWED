@@ -62,6 +62,11 @@ select {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
+  background-image: url(img/arrow.svg);
+  background-size: 50px 15px;
+  background-repeat: no-repeat;
+  background-position: right;
+  cursor: pointer;
 }
 
 .wrapper {
