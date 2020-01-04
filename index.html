@@ -19,7 +19,7 @@
                 <li><a href="#vi-utför">Vi utför</a></li>
                 <li><a href="#företagskunder">Företagskunder</a></li>
                 <li><a href="#privatkunder">Privatkunder</a></li>
-                <li><a href="#section3">Karriär</a></li>
+                <li><a href="#section3">CV</a></li>
             </ul>
             <button class="btn-contact-us">
                 Bli kontaktad
@@ -227,7 +227,7 @@
             </div>
         </section>
         <section class="section3" id="section3">
-            <h2 class="section3__title">Karriär</h2>
+            <h2 class="section3__title">CV</h2>
             <form name="karriär" netlify>
                 <label for="full-name" class="label">
                     Pilns vārds:*
@@ -236,6 +236,29 @@
                         name="full-name"
                         id="full-name"
                         class="input"
+                        placeholder="Vārds Uzvārds"
+                        required
+                    />
+                </label>
+                <label for="phone-number" class="label">
+                    Telefona numurs ar attiecīgās valsts kodu priekšā:*
+                    <input
+                        type="text"
+                        name="phone-number"
+                        id="phone-number"
+                        class="input"
+                        placeholder="+371 2 xxx xx xx"
+                        required
+                    />
+                </label>
+                <label for="mail" class="label">
+                    Jūsu ēpasts:*
+                    <input
+                        type="text"
+                        name="mail"
+                        id="mail"
+                        class="input"
+                        placeholder="example@example.com"
                         required
                     />
                 </label>
@@ -263,13 +286,16 @@
                     </select>
                 </label>
                 <label for="experiance" class="label">
-                    Pieredze:*
+                    Pieredze profesijā:*
                     <select
                         name="experiance"
                         id="experiance"
                         class="input"
                         required
                     >
+                        <option value="" disabled selected
+                            >Norādiet pieredzi</option
+                        >
                         <option value="1 gads">1 gads</option>
                         <option value="2 gadi">2 gadi</option>
                         <option value="3 gadi">3 gadi</option>
@@ -279,15 +305,20 @@
                         >
                     </select>
                 </label>
-                <label for="driver-licence" class="label">
-                    Tiesības:*
-                    <input
-                        type="text"
+                <label for="experiance" class="label">
+                    Auto vadītāja apliecība:*
+                    <select
                         name="driver-licence"
                         id="driver-licence"
                         class="input"
                         required
-                    />
+                    >
+                        <option value="" disabled selected
+                            >Norādiet vai jums ir autovadītaja apliecība</option
+                        >
+                        <option value="IR">IR</option>
+                        <option value="NAV">NAV</option>
+                    </select>
                 </label>
                 <div>
                     <p class="checkbox-label">
