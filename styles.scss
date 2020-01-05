@@ -152,21 +152,21 @@ header {
         align-items: center;
         flex-direction: column;
         block-size: 100vh;
-    }
-    .latswed-logo {
-        margin: 0 0 5vh 0;
-        z-index: 1;
-        max-inline-size: 40vw;
-    }
-    .wellcomeText {
-        z-index: 1;
-        color: white;
-        span {
-            color: #17cb94;
+        .latswed-logo {
+            margin: 0 0 5vh 0;
+            z-index: 1;
+            max-inline-size: 40vw;
         }
-        p {
-            padding-top: 3vh;
-            line-height: 26px;
+        .wellcomeText {
+            z-index: 1;
+            color: white;
+            span {
+                color: #17cb94;
+            }
+            p {
+                padding-top: 3vh;
+                line-height: 24px;
+            }
         }
     }
 }

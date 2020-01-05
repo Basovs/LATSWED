@@ -184,24 +184,24 @@ header .wrapper {
   block-size: 100vh;
 }
 
-header .latswed-logo {
+header .wrapper .latswed-logo {
   margin: 0 0 5vh 0;
   z-index: 1;
   max-inline-size: 40vw;
 }
 
-header .wellcomeText {
+header .wrapper .wellcomeText {
   z-index: 1;
   color: white;
 }
 
-header .wellcomeText span {
+header .wrapper .wellcomeText span {
   color: #17cb94;
 }
 
-header .wellcomeText p {
+header .wrapper .wellcomeText p {
   padding-top: 3vh;
-  line-height: 26px;
+  line-height: 24px;
 }
 
 .section1 {
