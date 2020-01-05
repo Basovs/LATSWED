@@ -1,12 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="102.243" height="115.147" viewBox="0 0 102.243 115.147">
-  <g id="Group_26" data-name="Group 26" transform="translate(-1355 -220)">
-    <rect id="Rectangle_78" data-name="Rectangle 78" width="14.014" height="50.025" transform="translate(1382.008 266.213)" fill="#ff7a53"/>
-    <rect id="Rectangle_79" data-name="Rectangle 79" width="14.014" height="14.014" transform="translate(1417.418 266.213)" fill="#ff7a53"/>
-    <g id="Group_25" data-name="Group 25" transform="translate(1355 220)">
+<svg xmlns="http://www.w3.org/2000/svg" width="610.629" height="687.694" viewBox="0 0 610.629 687.694">
+  <g id="Group_51" data-name="Group 51" transform="translate(-915.327 -175.08)">
+    <rect id="Rectangle_78" data-name="Rectangle 78" width="83.697" height="298.764" transform="translate(1076.627 451.083)" fill="#17cb94"/>
+    <rect id="Rectangle_79" data-name="Rectangle 79" width="83.697" height="83.697" transform="translate(1288.11 451.083)" fill="#17cb94"/>
+    <g id="Group_25" data-name="Group 25" transform="translate(915.327 175.08)">
       <g id="Group_11" data-name="Group 11" transform="translate(0 0)">
-        <path id="Subtraction_1" data-name="Subtraction 1" d="M51.127,115.147h0l-.006,0-.006,0-.005-.009L0,86.806.005,86.8V28.35L0,28.341,51.11.009,51.115,0l.006,0,.006,0,.005.009,51.11,28.331-.005.009V86.8l.005.009-51.11,28.331-.005.01ZM51.121,99.66h0l0,0,0-.007L88.494,78.944l0-.007V36.209l0-.007L51.13,15.491l0-.007,0,0,0,0,0,.007L13.749,36.2l0,.007V78.937l0,.007L51.113,99.656l0,.007,0,0Z" transform="translate(0)" fill="#ff7a53"/>
+        <path id="Subtraction_1" data-name="Subtraction 1" d="M305.35,687.694h0l-.035-.02-.035.019-.031-.055L0,518.435l.032-.057V169.316L0,169.26,305.247.057,305.279,0l.036.019L305.35,0l.032.057,305.247,169.2-.031.055V518.378l.031.055-305.246,169.2-.032.058Zm-.036-92.491h0l.027.016.025-.044L528.516,471.48l-.023-.041V216.255l.023-.042L305.365,92.518l-.024-.043-.026.015-.027-.015-.024.043L82.112,216.214l.023.041V471.439l-.023.041,223.153,123.7.023.041.025-.014Z" transform="translate(0)" fill="#17cb94"/>
       </g>
-      <rect id="Rectangle_80" data-name="Rectangle 80" width="13.804" height="25.808" transform="translate(90.701 25.808) rotate(-180)" fill="#ff7a53"/>
+      <rect id="Rectangle_80" data-name="Rectangle 80" width="82.443" height="154.131" transform="translate(541.697 154.134) rotate(-180)" fill="#17cb94"/>
     </g>
   </g>
 </svg>

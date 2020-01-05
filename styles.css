@@ -32,7 +32,7 @@ h3 {
 
 p {
   letter-spacing: 0.5px;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 nav {
@@ -63,7 +63,7 @@ select {
      -moz-appearance: none;
           appearance: none;
   background-image: url(img/arrow.svg);
-  background-size: 50px 12px;
+  background-size: 50px 10px;
   background-repeat: no-repeat;
   background-position: right;
   cursor: pointer;
@@ -81,6 +81,10 @@ select {
 
 .onScroll a {
   color: #33475b;
+}
+
+.onScroll .logo {
+  color: #17cb94;
 }
 
 .logo {
@@ -123,14 +127,14 @@ nav ul li a {
 nav ul li a:hover {
   -webkit-transform: scale(1.07);
           transform: scale(1.07);
-  color: #fa6337;
+  color: #17cb94;
 }
 
 .btn-contact-us {
   font-family: inherit;
   color: #ffffff;
-  background-color: #ff7a53;
-  padding: 0.8rem 2rem;
+  background-color: #17cb94;
+  padding: 0.7rem 2rem;
   border-radius: 4px;
   border: none;
   cursor: pointer;
@@ -139,7 +143,7 @@ nav ul li a:hover {
 }
 
 .btn-contact-us:hover {
-  background-color: #fa6337;
+  background-color: #2ead86;
 }
 
 header {
@@ -191,12 +195,12 @@ header .wellcomeText {
 }
 
 header .wellcomeText span {
-  color: #ff7a53;
+  color: #17cb94;
 }
 
 header .wellcomeText p {
   padding-top: 3vh;
-  line-height: 28px;
+  line-height: 26px;
 }
 
 .section1 {
@@ -439,7 +443,7 @@ header .wellcomeText p {
 }
 
 .section3 .career-text span {
-  color: #fa6337;
+  color: #17cb94;
 }
 
 footer {
@@ -475,7 +479,7 @@ footer {
 
 @media (min-width: 812px) {
   h1 {
-    font-size: 3.438rem;
+    font-size: 2.75rem;
     line-height: 1.1818;
   }
   h2 {
@@ -640,5 +644,10 @@ footer {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
+}
+
+.companies-form {
+  padding: 40px 0;
+  background-color: #177fcb;
 }
 /*# sourceMappingURL=styles.css.map */

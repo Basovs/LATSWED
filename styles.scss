@@ -38,7 +38,7 @@ h3 {
 }
 p {
     letter-spacing: 0.5px;
-    font-size: 18px;
+    font-size: 16px;
 }
 nav {
     // background-color: #dfecff;
@@ -56,7 +56,7 @@ nav {
 select {
     appearance: none;
     background-image: url(img/arrow.svg);
-    background-size: 50px 12px;
+    background-size: 50px 10px;
     background-repeat: no-repeat;
     background-position: right;
     cursor: pointer;
@@ -70,6 +70,9 @@ select {
     border-bottom: 1px solid rgba(140, 157, 184, 0.4);
     a {
         color: #33475b;
+    }
+    .logo {
+        color: #17cb94;
     }
 }
 .logo {
@@ -104,14 +107,14 @@ nav ul li a {
 nav ul li a:hover {
     transform: scale(1.07);
     // color: #1e7cfc;
-    color: #fa6337;
+    color: #17cb94;
 }
 .btn-contact-us {
     font-family: inherit;
     color: #ffffff;
     // background-image: linear-gradient(#6942c7, #512da8);
-    background-color: #ff7a53;
-    padding: 0.8rem 2rem;
+    background-color: #17cb94;
+    padding: 0.7rem 2rem;
     border-radius: 4px;
     border: none;
     cursor: pointer;
@@ -120,7 +123,7 @@ nav ul li a:hover {
 }
 .btn-contact-us:hover {
     // background-image: linear-gradient(#512da8, #512da8);
-    background-color: #fa6337;
+    background-color: #2ead86;
 }
 header {
     block-size: 100vh;
@@ -158,11 +161,11 @@ header {
         z-index: 1;
         color: white;
         span {
-            color: #ff7a53;
+            color: #17cb94;
         }
         p {
             padding-top: 3vh;
-            line-height: 28px;
+            line-height: 26px;
         }
     }
 }
@@ -352,7 +355,7 @@ header {
         font-size: 14px;
         text-align: center;
         span {
-            color: #fa6337;
+            color: #17cb94;
         }
     }
 }
@@ -380,7 +383,7 @@ footer {
 
 @media (min-width: 812px) {
     h1 {
-        font-size: 3.438rem;
+        font-size: 2.75rem;
         line-height: 1.1818;
     }
     h2 {
@@ -529,3 +532,4 @@ footer {
         flex-wrap: wrap;
     }
 }
+@import "companies-form";
