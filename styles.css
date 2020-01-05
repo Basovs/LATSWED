@@ -187,6 +187,7 @@ header .wrapper {
 header .latswed-logo {
   margin: 0 0 5vh 0;
   z-index: 1;
+  max-inline-size: 40vw;
 }
 
 header .wellcomeText {
