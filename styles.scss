@@ -357,18 +357,9 @@ header {
         text-align: center;
         span {
             color: #17cb94;
+            font-weight: 900;
         }
     }
-}
-
-footer {
-    background-color: #100e17;
-    color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 50px 16px 199px 16px;
 }
 
 .img-wrapper {
@@ -534,3 +525,4 @@ footer {
     }
 }
 @import "companies-form";
+@import "footer";
