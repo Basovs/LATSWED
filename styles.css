@@ -696,24 +696,14 @@ header .wrapper .wellcomeText span {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
 
 .professions__professions-container__item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   text-align: center;
   margin-top: 50px;
   inline-size: 50%;
@@ -730,7 +720,7 @@ header .wrapper .wellcomeText span {
 
 @media (min-width: 632px) {
   .professions__professions-container__item {
-    inline-size: 300px;
+    inline-size: 165px;
   }
 }
 
