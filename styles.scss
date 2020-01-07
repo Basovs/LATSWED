@@ -392,9 +392,9 @@ header {
         padding: unset;
         padding: 0 60px 0 60px;
         .wrapper {
-            margin-top: 12rem;
+            margin-top: unset;
             flex-direction: column-reverse;
-            justify-content: flex-end;
+            justify-content: center;
             .latswed-logo {
                 inline-size: 12.5rem;
                 margin-top: 5rem;
