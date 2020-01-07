@@ -392,14 +392,12 @@ header {
         padding: unset;
         padding: 0 60px 0 60px;
         .wrapper {
-            margin-top: unset;
+            margin-top: 12rem;
             flex-direction: column-reverse;
+            justify-content: flex-end;
             .latswed-logo {
-                // position: absolute;
-                // right: 10vw;
-                // bottom: 24vh;
                 inline-size: 12.5rem;
-                // margin: unset;
+                margin-top: 5rem;
             }
             .wellcomeText {
                 max-inline-size: 1000px;

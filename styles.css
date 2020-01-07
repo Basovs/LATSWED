@@ -471,14 +471,18 @@ header .wrapper .wellcomeText span {
     padding: 0 60px 0 60px;
   }
   header .wrapper {
-    margin-top: unset;
+    margin-top: 12rem;
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
   }
   header .wrapper .latswed-logo {
     inline-size: 12.5rem;
+    margin-top: 5rem;
   }
   header .wrapper .wellcomeText {
     max-inline-size: 1000px;
