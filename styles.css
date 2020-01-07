@@ -7,6 +7,7 @@
 
 html {
   scroll-behavior: smooth;
+  font-size: 0.875rem;
 }
 
 body {
@@ -18,16 +19,16 @@ body {
 }
 
 h1 {
-  font-size: 2.2rem;
   font-weight: 900;
 }
 
 h2 {
   font-weight: 700;
+  font-size: 2.14286rem;
 }
 
 h3 {
-  font-size: 1.6rem;
+  font-size: 2rem;
 }
 
 p {
@@ -39,8 +40,6 @@ nav {
   position: fixed;
   width: 100%;
   z-index: 2;
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -56,6 +55,8 @@ nav {
           align-items: center;
   padding: 0 60px;
   margin-left: 100vw;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 select {
@@ -70,7 +71,7 @@ select {
 }
 
 .wrapper {
-  max-inline-size: 1300px;
+  max-inline-size: 85.71429rem;
   margin: 0 auto;
 }
 
@@ -88,8 +89,7 @@ select {
 }
 
 .logo {
-  color: #33475b;
-  color: white;
+  color: #ffffff;
   text-decoration: none;
   font-weight: 900;
   font-size: 2rem;
@@ -116,17 +116,15 @@ nav ul li a {
   text-decoration: none;
   color: #33475b;
   color: white;
-  padding: 30px 18px;
+  padding: 26px 18px;
   cursor: pointer;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   font-weight: 700;
-  font-weight: 18px;
+  font-size: 18px;
 }
 
 nav ul li a:hover {
-  -webkit-transform: scale(1.07);
-          transform: scale(1.07);
   color: #17cb94;
 }
 
@@ -169,12 +167,10 @@ header::after {
 }
 
 header .wrapper {
+  margin-top: 6rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -188,7 +184,7 @@ header .wrapper {
 header .wrapper .latswed-logo {
   margin: 0 0 5vh 0;
   z-index: 1;
-  max-inline-size: 40vw;
+  inline-size: 10rem;
 }
 
 header .wrapper .wellcomeText {
@@ -198,13 +194,13 @@ header .wrapper .wellcomeText {
   max-width: 700px;
 }
 
-header .wrapper .wellcomeText span {
-  color: #17cb94;
+header .wrapper .wellcomeText h1 {
+  font-size: 3.42857rem;
+  line-height: 4.14286rem;
 }
 
-header .wrapper .wellcomeText p {
-  padding-top: 3vh;
-  line-height: 24px;
+header .wrapper .wellcomeText span {
+  color: #17cb94;
 }
 
 .section1 {
@@ -464,25 +460,31 @@ header .wrapper .wellcomeText p {
 }
 
 @media (min-width: 812px) {
-  h1 {
-    font-size: 2.75rem;
-    line-height: 1.1818;
-  }
   h2 {
-    font-size: 2rem;
+    font-size: 3.42857rem;
+  }
+  h3 {
+    font-size: 2.57143rem;
   }
   header {
     padding: unset;
     padding: 0 60px 0 60px;
   }
-  header .wellcomeText {
+  header .wrapper {
+    margin-top: unset;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  header .wrapper .latswed-logo {
+    inline-size: 12.5rem;
+  }
+  header .wrapper .wellcomeText {
     max-inline-size: 1000px;
   }
-  header .wellcomeText p {
-    max-inline-size: 540px;
-  }
-  header .latswed-logo {
-    inline-size: 11vw;
+  header .wrapper .wellcomeText h1 {
+    font-size: 4.57143rem;
   }
   .section1 {
     padding: 60px 0;
@@ -549,17 +551,11 @@ header .wrapper .wellcomeText p {
   }
   .section3 {
     padding: 100px 60px;
-    background: #100e17;
     display: -ms-grid;
     display: grid;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-  }
-  .section3__title {
-    text-align: center;
-    color: #ffffff;
-    margin: 0 0 50px 0;
   }
   .section3 form {
     display: -ms-grid;
@@ -642,7 +638,7 @@ header .wrapper .wellcomeText p {
           justify-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  background-color: #ffffff;
+  background-color: #f2f2f1;
 }
 
 .statistics__item {
@@ -684,8 +680,8 @@ header .wrapper .wellcomeText p {
 }
 
 .professions {
-  padding: 40px 16px;
-  background-color: #ffffff;
+  padding: 100px 16px;
+  background-color: #f2f2f1;
 }
 
 .professions__title {
@@ -720,7 +716,6 @@ header .wrapper .wellcomeText p {
 }
 
 .professions__professions-container__item__title {
-  font-size: 2.3rem;
   font-weight: 900;
   color: #17cb94;
 }
@@ -737,7 +732,7 @@ header .wrapper .wellcomeText p {
 
 .companies-form {
   padding: 40px 0;
-  background-color: #177fcb;
+  background-color: #f2f2f1;
 }
 
 footer {
