@@ -137,6 +137,7 @@ header {
     padding: 0 16px;
     position: relative;
     overflow: hidden;
+    z-index: -2;
     &::after {
         content: "";
         block-size: 100vh;
@@ -175,6 +176,7 @@ header {
 .section1 {
     padding: 60px 16px;
     // border-bottom: 1px solid rgba(140, 157, 184, 0.4);
+    background-color: #ffffff;
     &__title {
         text-align: center;
         color: #2d3339;
@@ -202,6 +204,7 @@ header {
 }
 .section2 {
     padding: 60px 16px 0 16px;
+    background-color: #ffffff;
     &__title {
         text-align: center;
         margin: 0 0 50px 0;

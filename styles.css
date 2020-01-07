@@ -155,6 +155,7 @@ header {
   padding: 0 16px;
   position: relative;
   overflow: hidden;
+  z-index: -2;
 }
 
 header::after {
@@ -208,6 +209,7 @@ header .wrapper .wellcomeText p {
 
 .section1 {
   padding: 60px 16px;
+  background-color: #ffffff;
 }
 
 .section1__title {
@@ -254,6 +256,7 @@ header .wrapper .wellcomeText p {
 
 .section2 {
   padding: 60px 16px 0 16px;
+  background-color: #ffffff;
 }
 
 .section2__title {
@@ -639,6 +642,7 @@ header .wrapper .wellcomeText p {
           justify-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  background-color: #ffffff;
 }
 
 .statistics__item {
@@ -681,6 +685,7 @@ header .wrapper .wellcomeText p {
 
 .professions {
   padding: 40px 16px;
+  background-color: #ffffff;
 }
 
 .professions__title {
