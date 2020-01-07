@@ -688,7 +688,6 @@ header .wrapper .wellcomeText p {
 }
 
 .professions__professions-container {
-  margin: 40px 0 0 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
