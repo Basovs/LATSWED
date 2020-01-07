@@ -679,6 +679,58 @@ header .wrapper .wellcomeText p {
   }
 }
 
+.professions {
+  padding: 40px 16px;
+}
+
+.professions__title {
+  text-align: center;
+}
+
+.professions__professions-container {
+  margin: 40px 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.professions__professions-container__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-top: 50px;
+  inline-size: 300px;
+}
+
+.professions__professions-container__item__title {
+  font-size: 2.3rem;
+  font-weight: 900;
+  color: #17cb94;
+}
+
+.professions__professions-container__item__content {
+  margin: 10px 16px 0 16px;
+}
+
+@media (min-width: 632px) {
+  .professions__professions-container__item {
+    margin: unset;
+  }
+}
+
 .companies-form {
   padding: 40px 0;
   background-color: #177fcb;
