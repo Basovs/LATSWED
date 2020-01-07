@@ -712,7 +712,7 @@ header .wrapper .wellcomeText p {
           align-items: center;
   text-align: center;
   margin-top: 50px;
-  inline-size: 300px;
+  inline-size: 50%;
 }
 
 .professions__professions-container__item__title {
@@ -727,7 +727,7 @@ header .wrapper .wellcomeText p {
 
 @media (min-width: 632px) {
   .professions__professions-container__item {
-    margin: unset;
+    inline-size: 300px;
   }
 }
 
