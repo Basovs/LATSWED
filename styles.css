@@ -11,15 +11,15 @@ html {
 }
 
 body {
-  font-family: roboto, sans-serif;
+  font-family: proxima-nova, sans-serif;
   font-weight: 400;
   font-style: normal;
-  color: #33475b;
+  color: #000000;
   -moz-osx-font-smoothing: grayscale;
 }
 
 h1 {
-  font-weight: 900;
+  font-weight: 700;
 }
 
 h2 {
@@ -29,34 +29,6 @@ h2 {
 
 h3 {
   font-size: 2rem;
-}
-
-p {
-  letter-spacing: 0.5px;
-  font-size: 16px;
-}
-
-nav {
-  position: fixed;
-  width: 100%;
-  z-index: 2;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 0 60px;
-  margin-left: 100vw;
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
 }
 
 select {
@@ -75,134 +47,6 @@ select {
   margin: 0 auto;
 }
 
-.onScroll {
-  background-color: #ffffff;
-  border-bottom: 1px solid rgba(140, 157, 184, 0.4);
-}
-
-.onScroll a {
-  color: #33475b;
-}
-
-.onScroll .logo {
-  color: #17cb94;
-}
-
-.logo {
-  color: #ffffff;
-  text-decoration: none;
-  font-weight: 900;
-  font-size: 2rem;
-}
-
-nav ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  list-style: none;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-nav ul li {
-  margin: 0 10px;
-}
-
-nav ul li a {
-  display: block;
-  text-decoration: none;
-  color: #33475b;
-  color: white;
-  padding: 26px 18px;
-  cursor: pointer;
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-  font-weight: 700;
-  font-size: 18px;
-}
-
-nav ul li a:hover {
-  color: #17cb94;
-}
-
-.btn-contact-us {
-  font-family: inherit;
-  color: #ffffff;
-  background-color: #17cb94;
-  padding: 0.7rem 2rem;
-  border-radius: 4px;
-  border: none;
-  cursor: pointer;
-  font-size: 16px;
-  font-weight: 700;
-}
-
-.btn-contact-us:hover {
-  background-color: #2ead86;
-}
-
-header {
-  block-size: 100vh;
-  background-image: radial-gradient(circle at 50% 0, #39495199, #0c202a99 99%), url(img/jaunaa2.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 0 16px;
-  position: relative;
-  overflow: hidden;
-  z-index: -2;
-}
-
-header::after {
-  content: "";
-  block-size: 100vh;
-  inline-size: 100vw;
-  background-color: #00000050;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-header .wrapper {
-  margin-top: 6rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  block-size: 100vh;
-}
-
-header .wrapper .latswed-logo {
-  margin: 0 0 5vh 0;
-  z-index: 1;
-  inline-size: 10rem;
-}
-
-header .wrapper .wellcomeText {
-  z-index: 1;
-  color: white;
-  text-align: center;
-  max-width: 700px;
-}
-
-header .wrapper .wellcomeText h1 {
-  font-size: 3.42857rem;
-  line-height: 4.14286rem;
-}
-
-header .wrapper .wellcomeText span {
-  color: #17cb94;
-}
-
 .section1 {
   padding: 60px 16px;
   background-color: #ffffff;
@@ -210,7 +54,6 @@ header .wrapper .wellcomeText span {
 
 .section1__title {
   text-align: center;
-  color: #2d3339;
   margin: 0 0 50px 0;
 }
 
@@ -466,30 +309,6 @@ header .wrapper .wellcomeText span {
   h3 {
     font-size: 2.57143rem;
   }
-  header {
-    padding: unset;
-    padding: 0 60px 0 60px;
-  }
-  header .wrapper {
-    margin-top: unset;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  header .wrapper .latswed-logo {
-    inline-size: 12.5rem;
-    margin-top: 5rem;
-  }
-  header .wrapper .wellcomeText {
-    max-inline-size: 1000px;
-  }
-  header .wrapper .wellcomeText h1 {
-    font-size: 4.57143rem;
-  }
   .section1 {
     padding: 60px 0;
   }
@@ -611,14 +430,235 @@ header .wrapper .wellcomeText span {
   }
 }
 
-@media (min-width: 1126px) {
-  nav {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    margin: unset;
+#ehred4sgwob44 {
+  -webkit-animation: ehred4sgwob44__sz 10000ms linear infinite normal forwards;
+          animation: ehred4sgwob44__sz 10000ms linear infinite normal forwards;
+}
+
+@-webkit-keyframes ehred4sgwob44__sz {
+  0% {
+    width: 83.7px;
+    height: 83.7px;
   }
+  17% {
+    width: 83.7px;
+    height: 83.7px;
+  }
+  19% {
+    width: 83.7px;
+    height: 10.217959px;
+  }
+  22% {
+    width: 83.7px;
+    height: 83.7px;
+  }
+  100% {
+    width: 83.7px;
+    height: 83.7px;
+  }
+}
+
+@keyframes ehred4sgwob44__sz {
+  0% {
+    width: 83.7px;
+    height: 83.7px;
+  }
+  17% {
+    width: 83.7px;
+    height: 83.7px;
+  }
+  19% {
+    width: 83.7px;
+    height: 10.217959px;
+  }
+  22% {
+    width: 83.7px;
+    height: 83.7px;
+  }
+  100% {
+    width: 83.7px;
+    height: 83.7px;
+  }
+}
+
+#ehred4sgwob44_to {
+  -webkit-animation: ehred4sgwob44_to__to 10000ms linear infinite normal forwards;
+          animation: ehred4sgwob44_to__to 10000ms linear infinite normal forwards;
+}
+
+@-webkit-keyframes ehred4sgwob44_to__to {
+  0% {
+    -webkit-transform: translate(1288.10999px, 451.08301px);
+            transform: translate(1288.10999px, 451.08301px);
+  }
+  17% {
+    -webkit-transform: translate(1288.10999px, 451.08301px);
+            transform: translate(1288.10999px, 451.08301px);
+  }
+  19% {
+    -webkit-transform: translate(1287.81523px, 495.04807px);
+            transform: translate(1287.81523px, 495.04807px);
+  }
+  22% {
+    -webkit-transform: translate(1288.10999px, 451.08301px);
+            transform: translate(1288.10999px, 451.08301px);
+  }
+  100% {
+    -webkit-transform: translate(1288.10999px, 451.08301px);
+            transform: translate(1288.10999px, 451.08301px);
+  }
+}
+
+@keyframes ehred4sgwob44_to__to {
+  0% {
+    -webkit-transform: translate(1288.10999px, 451.08301px);
+            transform: translate(1288.10999px, 451.08301px);
+  }
+  17% {
+    -webkit-transform: translate(1288.10999px, 451.08301px);
+            transform: translate(1288.10999px, 451.08301px);
+  }
+  19% {
+    -webkit-transform: translate(1287.81523px, 495.04807px);
+            transform: translate(1287.81523px, 495.04807px);
+  }
+  22% {
+    -webkit-transform: translate(1288.10999px, 451.08301px);
+            transform: translate(1288.10999px, 451.08301px);
+  }
+  100% {
+    -webkit-transform: translate(1288.10999px, 451.08301px);
+            transform: translate(1288.10999px, 451.08301px);
+  }
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  block-size: 5.35714rem;
+  z-index: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 5%;
+  -webkit-transition: 0.2s all ease;
+  transition: 0.2s all ease;
+  background: -webkit-gradient(linear, left top, left bottom, from(#00000085), to(#00000005));
+  background: linear-gradient(#00000085, #00000005);
+}
+
+nav .logo-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .logo-wrapper .latswed-logo {
+  inline-size: 2.1rem;
+  fill: white;
+}
+
+nav .logo-wrapper .logo {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #ffffff;
+  margin: 0 0 0 0.8rem;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  list-style: none;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  display: none;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 26px 18px;
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  font-weight: 500;
+}
+
+nav ul li a:hover {
+  color: #17cb94;
+}
+
+nav .btn-contact-us {
+  display: block;
+  font-family: inherit;
+  padding: 0.71429rem 1.07143rem;
+  border-radius: 0.28571rem;
+  border: 0.07143rem solid #fff;
+  cursor: pointer;
+  font-size: 1.14286rem;
+  background-color: unset;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+nav .btn-contact-us:hover {
+  background-color: #000000;
+  color: #ffffff;
+  border-color: #000000;
+}
+
+.onScroll {
+  background: #ffffff;
+  border-bottom: 1px solid rgba(140, 157, 184, 0.4);
+}
+
+.onScroll a {
+  color: #000000;
+}
+
+.onScroll .logo-wrapper .latswed-logo {
+  fill: black;
+}
+
+.onScroll .logo-wrapper .logo {
+  color: #000000;
+}
+
+.onScroll .btn-contact-us {
+  color: #000000;
+  border-color: #000000;
+}
+
+.onScroll .btn-contact-us :hover {
+  color: #ffffff;
+}
+
+@media (min-width: 640px) {
+  nav {
+    padding: 0 1.25%;
+  }
+}
+
+@media (min-width: 1126px) {
   nav ul {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -632,6 +672,66 @@ header .wrapper .wellcomeText span {
   }
 }
 
+header {
+  background-color: #ff7a53;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  padding: 7.375rem 1.07143rem;
+  position: relative;
+  overflow: hidden;
+  z-index: -2;
+  -webkit-transition: 0.2s all ease;
+  transition: 0.2s all ease;
+}
+
+header::after {
+  content: "";
+  block-size: 100vh;
+  inline-size: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+header .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  block-size: 100%;
+}
+
+header .wrapper .wellcomeText {
+  z-index: 1;
+  color: #ffffff;
+}
+
+header .wrapper .wellcomeText h1 {
+  font-size: 3.42857rem;
+  line-height: 4.14286rem;
+}
+
+@media (min-width: 640px) {
+  header .wrapper .wellcomeText {
+    max-inline-size: 1000px;
+  }
+  header .wrapper .wellcomeText h1 {
+    font-size: 4.57143rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  header {
+    padding: 0 1.07143rem;
+    block-size: 100vh;
+  }
+}
+
 .statistics {
   padding: 40px 16px;
   display: -webkit-box;
@@ -642,7 +742,7 @@ header .wrapper .wellcomeText span {
           justify-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  background-color: #f2f2f1;
+  background-color: #ffffff;
 }
 
 .statistics__item {
@@ -684,7 +784,7 @@ header .wrapper .wellcomeText span {
 
 .professions {
   padding: 100px 16px;
-  background-color: #f2f2f1;
+  background-color: #ffffff;
 }
 
 .professions__title {

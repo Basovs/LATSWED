@@ -1,0 +1,55 @@
+header {
+    // block-size: 446px;
+    background-color: #ff7a53;
+    // background-image: url(img/jaunaa2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: content-box;
+    padding: 7.375rem 1.07143rem;
+    position: relative;
+    overflow: hidden;
+    z-index: -2;
+    transition: 0.2s all ease;
+    &::after {
+        content: "";
+        block-size: 100vh;
+        inline-size: 100vw;
+
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .wrapper {
+        display: flex;
+        align-items: center;
+        block-size: 100%;
+        .wellcomeText {
+            z-index: 1;
+            color: #ffffff;
+            h1 {
+                font-size: 3.42857rem;
+                line-height: 4.14286rem;
+            }
+        }
+    }
+}
+
+@media (min-width: 640px) {
+    header {
+        .wrapper {
+            .wellcomeText {
+                max-inline-size: 1000px;
+                h1 {
+                    font-size: 4.57143rem;
+                }
+            }
+        }
+    }
+}
+@media (min-width: 1024px) {
+    header {
+        padding: 0 1.07143rem;
+        block-size: 100vh;
+    }
+}
