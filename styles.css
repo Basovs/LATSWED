@@ -498,10 +498,6 @@ nav .btn-contact-us:hover {
   .partners {
     padding: 60px 0;
   }
-  .partners__title {
-    text-align: center;
-    color: #2d3339;
-  }
   .partners .partner-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -607,7 +603,6 @@ nav .btn-contact-us:hover {
 }
 
 .companies-form {
-  padding: 40px 0;
   background-color: #f2f2f1;
 }
 
@@ -770,6 +765,24 @@ nav .btn-contact-us:hover {
 .cv-form .career-text span {
   color: #17cb94;
   font-weight: 900;
+}
+
+.cv-form .btn-contact-us {
+  display: block;
+  font-family: inherit;
+  padding: 0.71429rem 1.07143rem;
+  border-radius: 0.28571rem;
+  border: 0.07143rem solid #fff;
+  cursor: pointer;
+  font-size: 1.14286rem;
+  background-color: unset;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.cv-form .btn-contact-us:hover {
+  background-color: #ffffff;
+  color: #000000;
 }
 
 @media (min-width: 812px) {

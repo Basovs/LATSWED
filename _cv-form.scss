@@ -133,6 +133,23 @@
             font-weight: 900;
         }
     }
+    .btn-contact-us {
+        display: block;
+        font-family: inherit;
+        padding: 0.71429rem 1.07143rem;
+        border-radius: 0.28571rem;
+        border: 0.07143rem solid #fff;
+        cursor: pointer;
+        font-size: 1.14286rem;
+        background-color: unset;
+        color: #ffffff;
+        font-weight: 500;
+        &:hover {
+            // background-image: linear-gradient(#512da8, #512da8);
+            background-color: #ffffff;
+            color: #000000;
+        }
+    }
 }
 
 @media (min-width: 812px) {
