@@ -427,6 +427,9 @@ nav .btn-contact-us:hover {
     max-block-size: 25.2rem;
     margin: 0;
     padding: 0 1.07143rem;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
   }
   .stories__item .article-div {
     padding: 0 1.07143rem;
