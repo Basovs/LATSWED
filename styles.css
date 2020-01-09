@@ -95,7 +95,7 @@ select {
 }
 
 .section2 {
-  padding: 3.57143rem 1.42857rem;
+  padding: 0 1.42857rem;
   background-color: #ffffff;
 }
 
@@ -615,10 +615,6 @@ nav ul li a {
   font-weight: 500;
 }
 
-nav ul li a:hover {
-  color: #17cb94;
-}
-
 nav .btn-contact-us {
   display: block;
   font-family: inherit;
@@ -685,7 +681,7 @@ nav .btn-contact-us:hover {
 }
 
 .header {
-  background-color: #ff7a53;
+  background-color: #cb1741;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -775,13 +771,11 @@ nav .btn-contact-us:hover {
 
 .statistics__item__title {
   font-weight: 900;
-  color: #17cb94;
 }
 
 .statistics__item :nth-child(2) {
   font-weight: 700;
   font-size: 0.9rem;
-  color: #17cb94;
 }
 
 .statistics__item__content {
@@ -797,10 +791,6 @@ nav .btn-contact-us:hover {
 .professions {
   padding: 100px 16px;
   background-color: #ffffff;
-}
-
-.professions__title {
-  text-align: center;
 }
 
 .professions__professions-container {
@@ -822,7 +812,6 @@ nav .btn-contact-us:hover {
 
 .professions__professions-container__item__title {
   font-weight: 900;
-  color: #17cb94;
 }
 
 .professions__professions-container__item__content {

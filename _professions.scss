@@ -2,9 +2,6 @@
     padding: 100px 16px;
     // background-color: #f2f2f1;
     background-color: #ffffff;
-    &__title {
-        text-align: center;
-    }
     &__professions-container {
         display: flex;
         justify-content: space-between;
@@ -15,7 +12,6 @@
             inline-size: 50%;
             &__title {
                 font-weight: 900;
-                color: #17cb94;
             }
             &__content {
                 margin: 10px 16px 0 16px;
