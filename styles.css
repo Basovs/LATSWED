@@ -25,6 +25,7 @@ h1 {
 h2 {
   font-weight: 700;
   font-size: 2.14286rem;
+  line-height: 2.71429rem;
 }
 
 h3 {
@@ -94,14 +95,8 @@ select {
 }
 
 .section2 {
-  padding: 60px 16px 0 16px;
+  padding: 60px 1.42857rem 0 1.42857rem;
   background-color: #ffffff;
-}
-
-.section2__title {
-  text-align: center;
-  margin: 0 0 50px 0;
-  color: #2d3339;
 }
 
 .section2__item {
@@ -110,16 +105,17 @@ select {
 
 .section2__item .img-wrapper {
   margin: 0 0 20px 0;
-  block-size: 80vw;
-}
-
-.section2__item .article-div__article {
-  padding: 0 16px;
+  block-size: 60vw;
 }
 
 .section2__item .article-div__article__title {
   margin: 0 0 10px 0;
   color: #2d3339;
+}
+
+.section2__item .article-div__article p {
+  font-size: 1.28571rem;
+  line-height: 2.07143rem;
 }
 
 .section2__item .article-div__article:nth-child(even) {
