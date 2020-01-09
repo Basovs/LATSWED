@@ -311,35 +311,10 @@ nav .btn-contact-us:hover {
 .header {
   margin: -5.35714rem 0 0 0;
   background-color: #cb1741;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  -webkit-box-sizing: content-box;
-          box-sizing: content-box;
   padding: 7.375rem 1.07143rem;
-  position: relative;
   z-index: -2;
   -webkit-transition: 0.2s all ease;
   transition: 0.2s all ease;
-}
-
-.header::after {
-  content: "";
-  block-size: 100vh;
-  inline-size: 100vw;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.header .wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  block-size: 100%;
 }
 
 .header .wrapper .wellcomeText {
@@ -353,8 +328,17 @@ nav .btn-contact-us:hover {
 }
 
 @media (min-width: 640px) {
+  .header .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    block-size: 100%;
+  }
   .header .wrapper .wellcomeText {
-    max-inline-size: 1000px;
+    max-inline-size: 62.5rem;
   }
   .header .wrapper .wellcomeText h1 {
     font-size: 4.57143rem;
@@ -369,12 +353,17 @@ nav .btn-contact-us:hover {
 }
 
 .stories {
-  padding: 0 1.42857rem;
+  padding: 3.57143rem 1.42857rem;
   background-color: #ffffff;
 }
 
+.stories .wrapper {
+  display: -ms-grid;
+  display: grid;
+  gap: 100px;
+}
+
 .stories__item {
-  margin: 8.57143rem 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
