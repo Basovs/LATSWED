@@ -109,8 +109,7 @@ select {
 }
 
 .section2__item .article-div__article__title {
-  margin: 0 0 10px 0;
-  color: #2d3339;
+  margin: 0 0 1rem 0;
 }
 
 .section2__item .article-div__article p {
