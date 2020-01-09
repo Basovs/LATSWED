@@ -763,8 +763,9 @@ nav .btn-contact-us:hover {
 }
 
 .cv-form .career-text span {
-  color: #17cb94;
-  font-weight: 900;
+  color: #cb1741;
+  font-weight: 800;
+  cursor: pointer;
 }
 
 .cv-form .btn-contact-us {
