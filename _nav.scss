@@ -45,7 +45,8 @@
 }
 nav {
     // background-color: #dfecff;
-    position: fixed;
+    position: sticky;
+    top: 0;
     width: 100%;
     block-size: 5.35714rem;
     z-index: 2;

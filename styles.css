@@ -545,7 +545,9 @@ select {
 }
 
 nav {
-  position: fixed;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
   width: 100%;
   block-size: 5.35714rem;
   z-index: 2;
@@ -689,7 +691,6 @@ nav .btn-contact-us:hover {
           box-sizing: content-box;
   padding: 7.375rem 1.07143rem;
   position: relative;
-  overflow: hidden;
   z-index: -2;
   -webkit-transition: 0.2s all ease;
   transition: 0.2s all ease;
