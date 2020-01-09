@@ -8,9 +8,6 @@
         flex-direction: column;
         &:nth-child(even) {
             flex-direction: column-reverse;
-            .article-div {
-                justify-content: end;
-            }
         }
         .img-wrapper {
             margin: 0 0 20px 0;
@@ -36,12 +33,14 @@
     .stories {
         &__item {
             padding: 0;
-            flex-direction: row;
-            &:nth-child(even) {
-                flex-direction: row-reverse;
+            flex-direction: row-reverse;
+            &:nth-child(odd) {
                 .article-div {
                     justify-content: end;
                 }
+            }
+            &:nth-child(even) {
+                flex-direction: row;
             }
             .img-wrapper {
                 min-inline-size: 41.6667%;
