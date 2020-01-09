@@ -95,7 +95,7 @@ select {
 }
 
 .section2 {
-  padding: 60px 1.42857rem 0 1.42857rem;
+  padding: 3.57143rem 1.42857rem;
   background-color: #ffffff;
 }
 
@@ -105,7 +105,9 @@ select {
 
 .section2__item .img-wrapper {
   margin: 0 0 20px 0;
-  block-size: 60vw;
+  block-size: 70vw;
+  -webkit-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
 }
 
 .section2__item .article-div__article__title {

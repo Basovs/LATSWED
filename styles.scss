@@ -86,13 +86,14 @@ select {
     }
 }
 .section2 {
-    padding: 60px 1.42857rem 0 1.42857rem;
+    padding: 3.57143rem 1.42857rem;
     background-color: #ffffff;
     &__item {
         margin: 0 0 60px 0;
         .img-wrapper {
             margin: 0 0 20px 0;
-            block-size: 60vw;
+            block-size: 70vw;
+            transition: 0.3s ease-out;
         }
         .article-div__article {
             &__title {
