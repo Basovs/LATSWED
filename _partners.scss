@@ -1,0 +1,52 @@
+.partners {
+    padding: 60px 16px;
+    // border-bottom: 1px solid rgba(140, 157, 184, 0.4);
+    background-color: #ffffff;
+    &__title {
+        text-align: center;
+        margin: 0 0 50px 0;
+    }
+    .partner-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        .partner-wrapper {
+            inline-size: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 30px 0;
+        }
+        .jrMarkteknik {
+            block-size: 30px;
+        }
+        .mjContractor {
+            block-size: 30px;
+        }
+    }
+}
+
+@media (min-width: 812px) {
+    .partners {
+        padding: 60px 0;
+        &__title {
+            text-align: center;
+            color: #2d3339;
+        }
+        .partner-container {
+            display: flex;
+            justify-content: space-evenly;
+            padding: 0 60px;
+            .partner-wrapper {
+                inline-size: unset;
+            }
+            .jrMarkteknik {
+                block-size: 50px;
+            }
+            .mjContractor {
+                block-size: 50px;
+            }
+        }
+    }
+}

@@ -48,265 +48,6 @@ select {
   margin: 0 auto;
 }
 
-.section1 {
-  padding: 60px 16px;
-  background-color: #ffffff;
-}
-
-.section1__title {
-  text-align: center;
-  margin: 0 0 50px 0;
-}
-
-.section1 .partner-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.section1 .partner-container .partner-wrapper {
-  inline-size: 50%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: 30px 0;
-}
-
-.section1 .partner-container .jrMarkteknik {
-  block-size: 30px;
-}
-
-.section1 .partner-container .mjContractor {
-  block-size: 30px;
-}
-
-.section2 {
-  padding: 0 1.42857rem;
-  background-color: #ffffff;
-}
-
-.section2__item {
-  margin: 8.57143rem 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.section2__item:nth-child(even) {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: column-reverse;
-          flex-direction: column-reverse;
-}
-
-.section2__item:nth-child(even) .article-div {
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
-}
-
-.section2__item .img-wrapper {
-  margin: 0 0 20px 0;
-  block-size: 70vw;
-  -webkit-transition: 0.3s ease-out;
-  transition: 0.3s ease-out;
-}
-
-.section2__item .article-div__article__title {
-  margin: 0 0 1rem 0;
-}
-
-.section2__item .article-div__article p {
-  font-size: 1.28571rem;
-  line-height: 2.07143rem;
-}
-
-.section2__item .article-div__article:nth-child(even) {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
-}
-
-.section3 {
-  padding: 100px 16px;
-  background: #100e17;
-  display: -ms-grid;
-  display: grid;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  /* The container */
-  /* Create a custom checkbox */
-  /* On mouse-over, add a grey background color */
-  /* When the checkbox is checked, add a blue background */
-  /* Create the checkmark/indicator (hidden when not checked) */
-  /* Show the checkmark when checked */
-  /* Style the checkmark/indicator */
-}
-
-.section3__title {
-  text-align: center;
-  color: #ffffff;
-  margin: 0 0 50px 0;
-}
-
-.section3 form {
-  display: -ms-grid;
-  display: grid;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  gap: 20px;
-}
-
-.section3 form .label {
-  display: block;
-  color: #ffffff;
-  font-family: inherit;
-}
-
-.section3 form .label .input {
-  inline-size: 100%;
-  display: block;
-  border-radius: 8px;
-  font-size: 1rem;
-  padding: 1rem;
-  border: 2px solid transparent;
-  background-color: #312d3c;
-  color: #ffffff;
-  margin: 3px 0 0 0;
-}
-
-.section3 form .label .input:focus {
-  border: 2px solid #20ad3c;
-}
-
-.section3 form .label textarea {
-  font-family: inherit;
-  display: block;
-  border-radius: 8px;
-  font-size: 1rem;
-  padding: 1rem;
-  border: 2px solid transparent;
-  background-color: #312d3c;
-  color: #ffffff;
-  inline-size: 100%;
-  margin: 3px 0 0 0;
-}
-
-.section3 form .label textarea:focus {
-  border: 2px solid #20ad3c;
-}
-
-.section3 .checkbox-label {
-  color: #ffffff;
-}
-
-.section3 .checkbox-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin: 3px 0 0 0;
-}
-
-.section3 .checkbox-wrapper {
-  display: block;
-  inline-size: 50%;
-  position: relative;
-  padding-left: 35px;
-  margin-bottom: 12px;
-  cursor: pointer;
-  font-size: 1rem;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  color: #ffffff;
-  /* Hide the browser's default checkbox */
-}
-
-.section3 .checkbox-wrapper input {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
-  height: 0;
-  width: 0;
-}
-
-.section3 .checkmark {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 25px;
-  width: 25px;
-  background-color: #312d3c;
-  border-radius: 8px;
-}
-
-.section3 .checkbox-wrapper:hover input ~ .checkmark {
-  background-color: #ccc;
-}
-
-.section3 .checkbox-wrapper input:checked ~ .checkmark {
-  background-color: #ccc;
-}
-
-.section3 .checkmark:after {
-  content: "";
-  position: absolute;
-  display: none;
-}
-
-.section3 .checkbox-wrapper input:checked ~ .checkmark:after {
-  display: block;
-}
-
-.section3 .checkbox-wrapper .checkmark:after {
-  left: 9px;
-  top: 5px;
-  width: 5px;
-  height: 10px;
-  border: solid #312d3c;
-  border-width: 0 3px 3px 0;
-  -webkit-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
-
-.section3 .career-text {
-  color: #ffffff;
-  font-size: 14px;
-  text-align: center;
-}
-
-.section3 .career-text span {
-  color: #17cb94;
-  font-weight: 900;
-}
-
 .img-wrapper {
   position: relative;
 }
@@ -323,122 +64,6 @@ select {
   h2 {
     font-size: 3.42857rem;
     line-height: 4.14286rem;
-  }
-  .section1 {
-    padding: 60px 0;
-  }
-  .section1__title {
-    text-align: center;
-    color: #2d3339;
-  }
-  .section1 .partner-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
-    padding: 0 60px;
-  }
-  .section1 .partner-container .partner-wrapper {
-    inline-size: unset;
-  }
-  .section1 .partner-container .jrMarkteknik {
-    block-size: 50px;
-  }
-  .section1 .partner-container .mjContractor {
-    block-size: 50px;
-  }
-  .section2__item {
-    padding: 0;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-  }
-  .section2__item:nth-child(even) {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: row-reverse;
-            flex-direction: row-reverse;
-  }
-  .section2__item:nth-child(even) .article-div {
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: end;
-  }
-  .section2__item .img-wrapper {
-    min-inline-size: 41.6667%;
-    max-block-size: 25.2rem;
-    margin: 0;
-    padding: 0 1.07143rem;
-  }
-  .section2__item .article-div {
-    padding: 0 1.07143rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-item-align: center;
-        align-self: center;
-  }
-  .section2__item .article-div__article {
-    inline-size: 70%;
-  }
-  .section3 {
-    padding: 100px 60px;
-    display: -ms-grid;
-    display: grid;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .section3 form {
-    display: -ms-grid;
-    display: grid;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    gap: 30px;
-    inline-size: 40vw;
-  }
-  .section3 form label {
-    display: block;
-    color: #ffffff;
-    inline-size: 40vw;
-    padding: unset;
-  }
-  .section3 form label .input {
-    display: block;
-    border-radius: 8px;
-    font-size: 1rem;
-    padding: 1rem;
-    border: 2px solid transparent;
-    background-color: #312d3c;
-    color: #ffffff;
-    margin: 3px 0 0 0;
-  }
-  .section3 form label .input:focus {
-    border: 2px solid #20ad3c;
-  }
-  .section3 form label textarea {
-    display: block;
-    border-radius: 8px;
-    font-size: 1rem;
-    padding: 1rem;
-    border: 2px solid transparent;
-    background-color: #312d3c;
-    color: #ffffff;
-    inline-size: 40vw;
-    margin: 3px 0 0 0;
-  }
-  .section3 form label textarea:focus {
-    border: 2px solid #20ad3c;
-  }
-  .section3 form .btn-contact-us {
-    margin: unset;
-  }
-  .section3 .checkbox-wrapper {
-    inline-size: unset;
   }
 }
 
@@ -742,6 +367,170 @@ nav .btn-contact-us:hover {
   }
 }
 
+.stories {
+  padding: 0 1.42857rem;
+  background-color: #ffffff;
+}
+
+.stories__item {
+  margin: 8.57143rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.stories__item:nth-child(even) {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+}
+
+.stories__item:nth-child(even) .article-div {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.stories__item .img-wrapper {
+  margin: 0 0 20px 0;
+  block-size: 70vw;
+  -webkit-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
+}
+
+.stories__item .article-div__article__title {
+  margin: 0 0 1rem 0;
+}
+
+.stories__item .article-div__article p {
+  font-size: 1.28571rem;
+  line-height: 2.07143rem;
+}
+
+.stories__item .article-div__article:nth-child(even) {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+@media (min-width: 812px) {
+  .stories__item {
+    padding: 0;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .stories__item:nth-child(even) {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+  .stories__item:nth-child(even) .article-div {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+  }
+  .stories__item .img-wrapper {
+    min-inline-size: 41.6667%;
+    max-block-size: 25.2rem;
+    margin: 0;
+    padding: 0 1.07143rem;
+  }
+  .stories__item .article-div {
+    padding: 0 1.07143rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-item-align: center;
+        align-self: center;
+  }
+  .stories__item .article-div__article {
+    inline-size: 70%;
+  }
+}
+
+.partners {
+  padding: 60px 16px;
+  background-color: #ffffff;
+}
+
+.partners__title {
+  text-align: center;
+  margin: 0 0 50px 0;
+}
+
+.partners .partner-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.partners .partner-container .partner-wrapper {
+  inline-size: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 30px 0;
+}
+
+.partners .partner-container .jrMarkteknik {
+  block-size: 30px;
+}
+
+.partners .partner-container .mjContractor {
+  block-size: 30px;
+}
+
+@media (min-width: 812px) {
+  .partners {
+    padding: 60px 0;
+  }
+  .partners__title {
+    text-align: center;
+    color: #2d3339;
+  }
+  .partners .partner-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    padding: 0 60px;
+  }
+  .partners .partner-container .partner-wrapper {
+    inline-size: unset;
+  }
+  .partners .partner-container .jrMarkteknik {
+    block-size: 50px;
+  }
+  .partners .partner-container .mjContractor {
+    block-size: 50px;
+  }
+}
+
 .statistics {
   padding: 40px 16px;
   display: -webkit-box;
@@ -829,6 +618,226 @@ nav .btn-contact-us:hover {
 .companies-form {
   padding: 40px 0;
   background-color: #f2f2f1;
+}
+
+.cv-form {
+  padding: 100px 16px;
+  background: #100e17;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  /* The container */
+  /* Create a custom checkbox */
+  /* On mouse-over, add a grey background color */
+  /* When the checkbox is checked, add a blue background */
+  /* Create the checkmark/indicator (hidden when not checked) */
+  /* Show the checkmark when checked */
+  /* Style the checkmark/indicator */
+}
+
+.cv-form__title {
+  text-align: center;
+  color: #ffffff;
+  margin: 0 0 50px 0;
+}
+
+.cv-form form {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+}
+
+.cv-form form .label {
+  display: block;
+  color: #ffffff;
+  font-family: inherit;
+}
+
+.cv-form form .label .input {
+  inline-size: 100%;
+  display: block;
+  border-radius: 8px;
+  font-size: 1rem;
+  padding: 1rem;
+  border: 2px solid transparent;
+  background-color: #312d3c;
+  color: #ffffff;
+  margin: 3px 0 0 0;
+}
+
+.cv-form form .label .input:focus {
+  border: 2px solid #20ad3c;
+}
+
+.cv-form form .label textarea {
+  font-family: inherit;
+  display: block;
+  border-radius: 8px;
+  font-size: 1rem;
+  padding: 1rem;
+  border: 2px solid transparent;
+  background-color: #312d3c;
+  color: #ffffff;
+  inline-size: 100%;
+  margin: 3px 0 0 0;
+}
+
+.cv-form form .label textarea:focus {
+  border: 2px solid #20ad3c;
+}
+
+.cv-form .checkbox-label {
+  color: #ffffff;
+}
+
+.cv-form .checkbox-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 3px 0 0 0;
+}
+
+.cv-form .checkbox-wrapper {
+  display: block;
+  inline-size: 50%;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 1rem;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #ffffff;
+  /* Hide the browser's default checkbox */
+}
+
+.cv-form .checkbox-wrapper input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.cv-form .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #312d3c;
+  border-radius: 8px;
+}
+
+.cv-form .checkbox-wrapper:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+.cv-form .checkbox-wrapper input:checked ~ .checkmark {
+  background-color: #ccc;
+}
+
+.cv-form .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.cv-form .checkbox-wrapper input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.cv-form .checkbox-wrapper .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid #312d3c;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.cv-form .career-text {
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+}
+
+.cv-form .career-text span {
+  color: #17cb94;
+  font-weight: 900;
+}
+
+@media (min-width: 812px) {
+  .cv-form {
+    padding: 100px 60px;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .cv-form form {
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 30px;
+    inline-size: 40vw;
+  }
+  .cv-form form label {
+    display: block;
+    color: #ffffff;
+    inline-size: 40vw;
+    padding: unset;
+  }
+  .cv-form form label .input {
+    display: block;
+    border-radius: 8px;
+    font-size: 1rem;
+    padding: 1rem;
+    border: 2px solid transparent;
+    background-color: #312d3c;
+    color: #ffffff;
+    margin: 3px 0 0 0;
+  }
+  .cv-form form label .input:focus {
+    border: 2px solid #20ad3c;
+  }
+  .cv-form form label textarea {
+    display: block;
+    border-radius: 8px;
+    font-size: 1rem;
+    padding: 1rem;
+    border: 2px solid transparent;
+    background-color: #312d3c;
+    color: #ffffff;
+    inline-size: 40vw;
+    margin: 3px 0 0 0;
+  }
+  .cv-form form label textarea:focus {
+    border: 2px solid #20ad3c;
+  }
+  .cv-form form .btn-contact-us {
+    margin: unset;
+  }
+  .cv-form .checkbox-wrapper {
+    inline-size: unset;
+  }
 }
 
 footer {

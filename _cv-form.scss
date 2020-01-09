@@ -1,0 +1,190 @@
+.cv-form {
+    padding: 100px 16px;
+    background: #100e17;
+    display: grid;
+    justify-content: center;
+    &__title {
+        text-align: center;
+        color: #ffffff;
+        margin: 0 0 50px 0;
+    }
+    form {
+        display: grid;
+        justify-content: center;
+        gap: 20px;
+        .label {
+            display: block;
+            color: #ffffff;
+            font-family: inherit;
+            .input {
+                inline-size: 100%;
+                display: block;
+                border-radius: 8px;
+                font-size: 1rem;
+                padding: 1rem;
+                border: 2px solid transparent;
+                background-color: #312d3c;
+                color: #ffffff;
+                margin: 3px 0 0 0;
+                &:focus {
+                    border: 2px solid #20ad3c;
+                }
+            }
+            textarea {
+                font-family: inherit;
+                display: block;
+                border-radius: 8px;
+                font-size: 1rem;
+                padding: 1rem;
+                border: 2px solid transparent;
+                background-color: #312d3c;
+                color: #ffffff;
+                inline-size: 100%;
+                margin: 3px 0 0 0;
+                &:focus {
+                    border: 2px solid #20ad3c;
+                }
+            }
+        }
+    }
+    .checkbox-label {
+        color: #ffffff;
+    }
+    .checkbox-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 3px 0 0 0;
+    }
+    /* The container */
+    .checkbox-wrapper {
+        display: block;
+        inline-size: 50%;
+        position: relative;
+        padding-left: 35px;
+        margin-bottom: 12px;
+        cursor: pointer;
+        font-size: 1rem;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        color: #ffffff;
+        /* Hide the browser's default checkbox */
+        input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+            height: 0;
+            width: 0;
+        }
+    }
+
+    /* Create a custom checkbox */
+    .checkmark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 25px;
+        width: 25px;
+        background-color: #312d3c;
+        border-radius: 8px;
+    }
+
+    /* On mouse-over, add a grey background color */
+    .checkbox-wrapper:hover input ~ .checkmark {
+        background-color: #ccc;
+    }
+
+    /* When the checkbox is checked, add a blue background */
+    .checkbox-wrapper input:checked ~ .checkmark {
+        background-color: #ccc;
+    }
+
+    /* Create the checkmark/indicator (hidden when not checked) */
+    .checkmark:after {
+        content: "";
+        position: absolute;
+        display: none;
+    }
+    /* Show the checkmark when checked */
+    .checkbox-wrapper input:checked ~ .checkmark:after {
+        display: block;
+    }
+
+    /* Style the checkmark/indicator */
+    .checkbox-wrapper .checkmark:after {
+        left: 9px;
+        top: 5px;
+        width: 5px;
+        height: 10px;
+        border: solid #312d3c;
+        border-width: 0 3px 3px 0;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+    .career-text {
+        color: #ffffff;
+        font-size: 14px;
+        text-align: center;
+        span {
+            color: #17cb94;
+            font-weight: 900;
+        }
+    }
+}
+
+@media (min-width: 812px) {
+    .cv-form {
+        padding: 100px 60px;
+        display: grid;
+        justify-content: center;
+        form {
+            display: grid;
+            justify-content: center;
+            gap: 30px;
+            inline-size: 40vw;
+            // inline-size: 30vw;
+            label {
+                display: block;
+                color: #ffffff;
+                inline-size: 40vw;
+                padding: unset;
+                .input {
+                    display: block;
+                    border-radius: 8px;
+                    font-size: 1rem;
+                    padding: 1rem;
+                    border: 2px solid transparent;
+                    background-color: #312d3c;
+                    color: #ffffff;
+                    margin: 3px 0 0 0;
+                    &:focus {
+                        border: 2px solid #20ad3c;
+                    }
+                }
+                textarea {
+                    display: block;
+                    border-radius: 8px;
+                    font-size: 1rem;
+                    padding: 1rem;
+                    border: 2px solid transparent;
+                    background-color: #312d3c;
+                    color: #ffffff;
+                    inline-size: 40vw;
+                    margin: 3px 0 0 0;
+                    &:focus {
+                        border: 2px solid #20ad3c;
+                    }
+                }
+            }
+            .btn-contact-us {
+                margin: unset;
+            }
+        }
+        .checkbox-wrapper {
+            inline-size: unset;
+        }
+    }
+}
