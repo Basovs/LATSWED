@@ -33,6 +33,10 @@ h3 {
   font-size: 2rem;
 }
 
+p {
+  letter-spacing: 0.01rem;
+}
+
 select {
   -webkit-appearance: none;
      -moz-appearance: none;
@@ -519,7 +523,7 @@ nav .btn-contact-us:hover {
 }
 
 .statistics {
-  padding: 40px 16px;
+  padding: 3.57143rem 1.42857rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -567,7 +571,7 @@ nav .btn-contact-us:hover {
 }
 
 .professions {
-  padding: 100px 16px;
+  padding: 3.57143rem 1.42857rem;
   background-color: #ffffff;
 }
 

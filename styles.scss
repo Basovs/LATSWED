@@ -30,7 +30,6 @@ body {
     // color: #33475b;
     color: #000000;
     background-color: #000000;
-
     -moz-osx-font-smoothing: grayscale;
 }
 h1 {
@@ -43,6 +42,9 @@ h2 {
 }
 h3 {
     font-size: 2rem;
+}
+p {
+    letter-spacing: 0.01rem;
 }
 
 select {
