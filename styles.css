@@ -15,6 +15,7 @@ body {
   font-weight: 400;
   font-style: normal;
   color: #000000;
+  background-color: #000000;
   -moz-osx-font-smoothing: grayscale;
 }
 
@@ -308,7 +309,7 @@ nav .btn-contact-us:hover {
 }
 
 .header {
-  margin: -10.35714rem 0 0 0;
+  margin: -5.35714rem 0 0 0;
   background-color: #cb1741;
   background-position: center;
   background-repeat: no-repeat;
