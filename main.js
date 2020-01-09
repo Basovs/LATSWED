@@ -8,7 +8,7 @@ window.onscroll = function() {
 
 function changeOnScroll() {
     if (
-        // document.body.scrollTop > 0 ||
+        document.body.scrollTop > 500 ||
         document.documentElement.scrollTop > 500
     ) {
         document.querySelector("nav").className = "onScroll"
