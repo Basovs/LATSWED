@@ -1,4 +1,4 @@
-header {
+.header {
     // block-size: 446px;
     background-color: #ff7a53;
     // background-image: url(img/jaunaa2.jpg);
@@ -36,7 +36,7 @@ header {
 }
 
 @media (min-width: 640px) {
-    header {
+    .header {
         .wrapper {
             .wellcomeText {
                 max-inline-size: 1000px;
@@ -48,7 +48,7 @@ header {
     }
 }
 @media (min-width: 1024px) {
-    header {
+    .header {
         padding: 0 1.07143rem;
         block-size: 100vh;
     }

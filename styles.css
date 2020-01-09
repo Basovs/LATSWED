@@ -669,7 +669,7 @@ nav .btn-contact-us:hover {
   }
 }
 
-header {
+.header {
   background-color: #ff7a53;
   background-position: center;
   background-repeat: no-repeat;
@@ -684,7 +684,7 @@ header {
   transition: 0.2s all ease;
 }
 
-header::after {
+.header::after {
   content: "";
   block-size: 100vh;
   inline-size: 100vw;
@@ -693,7 +693,7 @@ header::after {
   left: 0;
 }
 
-header .wrapper {
+.header .wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -703,27 +703,27 @@ header .wrapper {
   block-size: 100%;
 }
 
-header .wrapper .wellcomeText {
+.header .wrapper .wellcomeText {
   z-index: 1;
   color: #ffffff;
 }
 
-header .wrapper .wellcomeText h1 {
+.header .wrapper .wellcomeText h1 {
   font-size: 3.42857rem;
   line-height: 4.14286rem;
 }
 
 @media (min-width: 640px) {
-  header .wrapper .wellcomeText {
+  .header .wrapper .wellcomeText {
     max-inline-size: 1000px;
   }
-  header .wrapper .wellcomeText h1 {
+  .header .wrapper .wellcomeText h1 {
     font-size: 4.57143rem;
   }
 }
 
 @media (min-width: 1024px) {
-  header {
+  .header {
     padding: 0 1.07143rem;
     block-size: 100vh;
   }
