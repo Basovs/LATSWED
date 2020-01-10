@@ -1,0 +1,45 @@
+.about-us {
+    background-color: #ffffff;
+    padding: 3.57143rem 1.42857rem;
+    &__item {
+        .img-wrapper {
+            margin: 0 0 2rem 0;
+            block-size: 70vw;
+            transition: 0.3s ease-out;
+            &__img {
+                object-fit: contain;
+            }
+        }
+        .article-div__article {
+            &__title {
+                margin: 0 0 1rem 0;
+            }
+            p {
+                font-size: 1.28571rem;
+                line-height: 2.07143rem;
+            }
+        }
+    }
+}
+
+@media (min-width: 812px) {
+    .about-us {
+        &__item {
+            .wrapper {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .img-wrapper {
+                    inline-size: 20%;
+                    block-size: 100%;
+                    align-self: center;
+                    padding: 0 1.07143rem;
+                }
+                .article-div {
+                    inline-size: 40%;
+                    padding: 0 1.07143rem;
+                }
+            }
+        }
+    }
+}
