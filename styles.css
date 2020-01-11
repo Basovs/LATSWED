@@ -341,6 +341,7 @@ nav .btn-contact-us:hover {
     block-size: 100%;
   }
   .header .wrapper .wellcomeText {
+    padding: 0 3.07143rem;
     max-inline-size: 62.5rem;
   }
   .header .wrapper .wellcomeText h1 {
@@ -896,8 +897,7 @@ nav .btn-contact-us:hover {
 }
 
 footer {
-  background-color: #100e17;
-  color: #ffffff;
+  background-color: #ffffff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
