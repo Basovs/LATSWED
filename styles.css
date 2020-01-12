@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  font-family: proxima-nova, sans-serif;
+  font-family: roboto, sans-serif;
   font-weight: 400;
   font-style: normal;
   color: #000000;
@@ -33,7 +33,7 @@ h3 {
 }
 
 p {
-  letter-spacing: 0.01rem;
+  letter-spacing: 0.02rem;
 }
 
 select {
@@ -355,6 +355,47 @@ nav .btn-contact-us:hover {
   .header {
     padding: 0 1.07143rem;
     block-size: 100vh;
+  }
+}
+
+.small-text-content {
+  padding: 7.14286rem 1.42857rem;
+}
+
+.small-text-content__item {
+  padding: 0 0 1.78571rem 0;
+}
+
+.small-text-content__item__title {
+  font-size: 2.57143rem;
+  line-height: 3rem;
+  margin: 0 0 1.42857rem 0;
+}
+
+.small-text-content__item__content {
+  font-size: 1.28571rem;
+  line-height: 2.07143rem;
+  margin: 0 0 1.07143rem 0;
+}
+
+.small-text-content__item__link {
+  text-decoration: none;
+  display: block;
+  color: #20ad3c;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+@media (min-width: 1024px) {
+  .small-text-content .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0 1.9rem;
+  }
+  .small-text-content__item {
+    width: 33.33333%;
+    padding: 0 1.07143rem;
   }
 }
 
