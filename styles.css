@@ -713,13 +713,6 @@ nav .btn-contact-us:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  /* The container */
-  /* Create a custom checkbox */
-  /* On mouse-over, add a grey background color */
-  /* When the checkbox is checked, add a blue background */
-  /* Create the checkmark/indicator (hidden when not checked) */
-  /* Show the checkmark when checked */
-  /* Style the checkmark/indicator */
 }
 
 .cv-form__title {
@@ -786,70 +779,8 @@ nav .btn-contact-us:hover {
   margin: 3px 0 0 0;
 }
 
-.cv-form .checkbox-wrapper {
-  display: block;
-  inline-size: 50%;
-  position: relative;
-  padding-left: 35px;
-  margin-bottom: 12px;
-  cursor: pointer;
-  font-size: 1rem;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  /* Hide the browser's default checkbox */
-}
-
-.cv-form .checkbox-wrapper input {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
-  height: 0;
-  width: 0;
-}
-
-.cv-form .checkmark {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 25px;
-  width: 25px;
-  background-color: #ffffff;
-  border-radius: 8px;
-}
-
-.cv-form .checkbox-wrapper {
+.cv-form .checkbox-container label {
   color: #000000;
-}
-
-.cv-form .checkbox-wrapper:hover input ~ .checkmark {
-  background-color: #000000;
-}
-
-.cv-form .checkbox-wrapper input:checked ~ .checkmark {
-  background-color: #000000;
-}
-
-.cv-form .checkmark:after {
-  content: "";
-  position: absolute;
-  display: none;
-}
-
-.cv-form .checkbox-wrapper input:checked ~ .checkmark:after {
-  display: block;
-}
-
-.cv-form .checkbox-wrapper .checkmark:after {
-  left: 9px;
-  top: 5px;
-  width: 5px;
-  height: 10px;
-  border: solid #ffffff;
-  border-width: 0 3px 3px 0;
-  -webkit-transform: rotate(45deg);
-  transform: rotate(45deg);
 }
 
 .cv-form .career-text {
@@ -900,7 +831,6 @@ nav .btn-contact-us:hover {
   }
   .cv-form form label {
     display: block;
-    color: #ffffff;
     inline-size: 40vw;
     padding: unset;
   }
@@ -911,7 +841,6 @@ nav .btn-contact-us:hover {
     padding: 1rem;
     border: 2px solid transparent;
     background-color: #312d3c;
-    color: #ffffff;
     margin: 3px 0 0 0;
   }
   .cv-form form label .input:focus {
@@ -924,7 +853,6 @@ nav .btn-contact-us:hover {
     padding: 1rem;
     border: 2px solid transparent;
     background-color: #312d3c;
-    color: #ffffff;
     inline-size: 40vw;
     margin: 3px 0 0 0;
   }
