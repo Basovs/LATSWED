@@ -98,7 +98,7 @@ nav {
 .hamburger-btn {
     // cursor: pointer;
     z-index: 10000;
-    position: fixed;
+    position: sticky;
     top: 0.45rem;
     right: 5%;
 }
