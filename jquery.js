@@ -26,5 +26,8 @@ $(document).ready(function() {
         $(".li_4")
             .delay(300)
             .animate({ margin: "2rem 0 2rem 0" }, 150)
+        $(".li_5")
+            .delay(400)
+            .animate({ margin: "2rem 0 2rem 0" }, 150)
     })
 })
