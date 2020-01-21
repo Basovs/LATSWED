@@ -219,16 +219,13 @@ nav .logo-wrapper .logo {
 }
 
 nav ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   list-style: none;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  display: none;
 }
 
 nav ul li {
@@ -247,22 +244,54 @@ nav ul li a {
 }
 
 nav .btn-contact-us {
-  display: block;
-  font-family: inherit;
-  padding: 0.71429rem 1.07143rem;
-  border-radius: 0.28571rem;
-  border: 0.07143rem solid #fff;
-  cursor: pointer;
-  font-size: 1.14286rem;
-  background-color: unset;
-  color: #ffffff;
-  font-weight: 500;
+  display: none;
 }
 
-nav .btn-contact-us:hover {
-  background-color: #000000;
+.hamburger-btn {
+  z-index: 10000;
+  position: fixed;
+  top: 0.6rem;
+  right: 5%;
+}
+
+.hamburger-menu {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  inline-size: 100%;
+  block-size: 100vh;
+  background-color: rgba(0, 0, 0, 0.98);
+  z-index: 5;
+}
+
+.hamburger-menu ul {
+  list-style: none;
+  padding: 5rem;
+}
+
+.hamburger-menu ul li {
+  margin: 2rem 0;
+}
+
+.hamburger-menu ul li a {
   color: #ffffff;
-  border-color: #000000;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 2.14286rem;
+  line-height: 2.71429rem;
+}
+
+.hamburger-menu ul li a:hover {
+  color: #cb1741;
+}
+
+.show {
+  display: block;
+}
+
+.position-fixed {
+  position: fixed;
 }
 
 .onScroll {
@@ -291,6 +320,12 @@ nav .btn-contact-us:hover {
   color: #ffffff;
 }
 
+.onScroll-hamburger,
+.onScroll-hamburger:after,
+.onScroll-hamburger:before {
+  background-color: #000000;
+}
+
 @media (min-width: 640px) {
   nav {
     padding: 0 1.25%;
@@ -308,6 +343,26 @@ nav .btn-contact-us:hover {
     list-style: none;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+  }
+  nav .btn-contact-us {
+    display: block;
+    font-family: inherit;
+    padding: 0.71429rem 1.07143rem;
+    border-radius: 0.28571rem;
+    border: 0.07143rem solid #fff;
+    cursor: pointer;
+    font-size: 1.14286rem;
+    background-color: unset;
+    color: #ffffff;
+    font-weight: 500;
+  }
+  nav .btn-contact-us:hover {
+    background-color: #000000;
+    color: #ffffff;
+    border-color: #000000;
+  }
+  .hamburger-btn {
+    display: none;
   }
 }
 
