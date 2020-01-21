@@ -71,246 +71,159 @@ select {
   }
 }
 
-#ehred4sgwob44 {
-  -webkit-animation: ehred4sgwob44__sz 10000ms linear infinite normal forwards;
-          animation: ehred4sgwob44__sz 10000ms linear infinite normal forwards;
+/*#eh{red4sgwob44 {
+    animation: ehred4sgwob44__sz 10000ms linear infinite normal forwards;
 }
-
-@-webkit-keyframes ehred4sgwob44__sz {
-  0% {
-    width: 83.7px;
-    height: 83.7px;
-  }
-  17% {
-    width: 83.7px;
-    height: 83.7px;
-  }
-  19% {
-    width: 83.7px;
-    height: 10.217959px;
-  }
-  22% {
-    width: 83.7px;
-    height: 83.7px;
-  }
-  100% {
-    width: 83.7px;
-    height: 83.7px;
-  }
-}
-
 @keyframes ehred4sgwob44__sz {
-  0% {
-    width: 83.7px;
-    height: 83.7px;
-  }
-  17% {
-    width: 83.7px;
-    height: 83.7px;
-  }
-  19% {
-    width: 83.7px;
-    height: 10.217959px;
-  }
-  22% {
-    width: 83.7px;
-    height: 83.7px;
-  }
-  100% {
-    width: 83.7px;
-    height: 83.7px;
-  }
+    0% {
+        width: 83.7px;
+        height: 83.7px;
+    }
+    17% {
+        width: 83.7px;
+        height: 83.7px;
+    }
+    19% {
+        width: 83.7px;
+        height: 10.217959px;
+    }
+    22% {
+        width: 83.7px;
+        height: 83.7px;
+    }
+    100% {
+        width: 83.7px;
+        height: 83.7px;
+    }
 }
-
 #ehred4sgwob44_to {
-  -webkit-animation: ehred4sgwob44_to__to 10000ms linear infinite normal forwards;
-          animation: ehred4sgwob44_to__to 10000ms linear infinite normal forwards;
+    animation: ehred4sgwob44_to__to 10000ms linear infinite normal forwards;
 }
-
-@-webkit-keyframes ehred4sgwob44_to__to {
-  0% {
-    -webkit-transform: translate(1288.10999px, 451.08301px);
-            transform: translate(1288.10999px, 451.08301px);
-  }
-  17% {
-    -webkit-transform: translate(1288.10999px, 451.08301px);
-            transform: translate(1288.10999px, 451.08301px);
-  }
-  19% {
-    -webkit-transform: translate(1287.81523px, 495.04807px);
-            transform: translate(1287.81523px, 495.04807px);
-  }
-  22% {
-    -webkit-transform: translate(1288.10999px, 451.08301px);
-            transform: translate(1288.10999px, 451.08301px);
-  }
-  100% {
-    -webkit-transform: translate(1288.10999px, 451.08301px);
-            transform: translate(1288.10999px, 451.08301px);
-  }
-}
-
 @keyframes ehred4sgwob44_to__to {
-  0% {
-    -webkit-transform: translate(1288.10999px, 451.08301px);
-            transform: translate(1288.10999px, 451.08301px);
-  }
-  17% {
-    -webkit-transform: translate(1288.10999px, 451.08301px);
-            transform: translate(1288.10999px, 451.08301px);
-  }
-  19% {
-    -webkit-transform: translate(1287.81523px, 495.04807px);
-            transform: translate(1287.81523px, 495.04807px);
-  }
-  22% {
-    -webkit-transform: translate(1288.10999px, 451.08301px);
-            transform: translate(1288.10999px, 451.08301px);
-  }
-  100% {
-    -webkit-transform: translate(1288.10999px, 451.08301px);
-            transform: translate(1288.10999px, 451.08301px);
-  }
+    0% {
+        transform: translate(1288.109985px, 451.083008px);
+    }
+    17% {
+        transform: translate(1288.109985px, 451.083008px);
+    }
+    19% {
+        transform: translate(1287.815225px, 495.048072px);
+    }
+    22% {
+        transform: translate(1288.109985px, 451.083008px);
+    }
+    100% {
+        transform: translate(1288.109985px, 451.083008px);
+    }
 }
-
 nav {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  width: 100%;
-  block-size: 5.35714rem;
-  z-index: 2;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 0 5%;
-  -webkit-transition: 0.2s all ease;
-  transition: 0.2s all ease;
-  background: -webkit-gradient(linear, left top, left bottom, from(#00000085), to(#00000005));
-  background: linear-gradient(#00000085, #00000005);
+    // background-color: #dfecff;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    block-size: 5.35714rem;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    // margin-left: 100vw;
+    transition: 0.2s all ease;
+    background: linear-gradient(#00000085, #00000005);
+    .logo-wrapper {
+        display: flex;
+        align-items: center;
+        .latswed-logo {
+            inline-size: 2.1rem;
+            fill: rgb(255, 255, 255);
+        }
+        .logo {
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1.5rem;
+            color: #ffffff;
+            margin: 0 0 0 0.8rem;
+        }
+    }
+    ul {
+        display: flex;
+        justify-content: space-evenly;
+        list-style: none;
+        flex-wrap: wrap;
+        display: none;
+        li {
+            margin: 0 10px;
+            a {
+                display: block;
+                text-decoration: none;
+                color: #ffffff;
+                padding: 26px 18px;
+                cursor: pointer;
+                transition: all 0.2s ease-in-out;
+                font-weight: 500;
+            }
+        }
+    }
+    .btn-contact-us {
+        display: block;
+        font-family: inherit;
+        padding: 0.71429rem 1.07143rem;
+        border-radius: 0.28571rem;
+        border: 0.07143rem solid #fff;
+        cursor: pointer;
+        font-size: 1.14286rem;
+        background-color: unset;
+        color: #ffffff;
+        font-weight: 500;
+        &:hover {
+            // background-image: linear-gradient(#512da8, #512da8);
+            background-color: #000000;
+            color: #ffffff;
+            border-color: #000000;
+        }
+    }
 }
-
-nav .logo-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-nav .logo-wrapper .latswed-logo {
-  inline-size: 2.1rem;
-  fill: white;
-}
-
-nav .logo-wrapper .logo {
-  text-decoration: none;
-  font-weight: 700;
-  font-size: 1.5rem;
-  color: #ffffff;
-  margin: 0 0 0 0.8rem;
-}
-
-nav ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  list-style: none;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  display: none;
-}
-
-nav ul li {
-  margin: 0 10px;
-}
-
-nav ul li a {
-  display: block;
-  text-decoration: none;
-  color: #ffffff;
-  padding: 26px 18px;
-  cursor: pointer;
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-  font-weight: 500;
-}
-
-nav .btn-contact-us {
-  display: block;
-  font-family: inherit;
-  padding: 0.71429rem 1.07143rem;
-  border-radius: 0.28571rem;
-  border: 0.07143rem solid #fff;
-  cursor: pointer;
-  font-size: 1.14286rem;
-  background-color: unset;
-  color: #ffffff;
-  font-weight: 500;
-}
-
-nav .btn-contact-us:hover {
-  background-color: #000000;
-  color: #ffffff;
-  border-color: #000000;
-}
-
+//Navbar trigger on scroll for JS
 .onScroll {
-  background: #ffffff;
-  border-bottom: 1px solid rgba(140, 157, 184, 0.4);
-}
-
-.onScroll a {
-  color: #000000;
-}
-
-.onScroll .logo-wrapper .latswed-logo {
-  fill: black;
-}
-
-.onScroll .logo-wrapper .logo {
-  color: #000000;
-}
-
-.onScroll .btn-contact-us {
-  color: #000000;
-  border-color: #000000;
-}
-
-.onScroll .btn-contact-us :hover {
-  color: #ffffff;
+    background: #ffffff;
+    border-bottom: 1px solid rgba(140, 157, 184, 0.4);
+    a {
+        color: #000000;
+    }
+    .logo-wrapper {
+        .latswed-logo {
+            fill: rgb(0, 0, 0);
+        }
+        .logo {
+            color: #000000;
+        }
+    }
+    .btn-contact-us {
+        color: #000000;
+        border-color: #000000;
+        :hover {
+            color: #ffffff;
+        }
+    }
 }
 
 @media (min-width: 640px) {
-  nav {
-    padding: 0 1.25%;
-  }
+    nav {
+        padding: 0 1.25%;
+    }
 }
 
 @media (min-width: 1126px) {
-  nav ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
+    nav {
+        ul {
+            display: flex;
             justify-content: space-evenly;
-    list-style: none;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
+            list-style: none;
+            flex-wrap: wrap;
+        }
+    }
 }
-
+}*/
 .header {
   margin: -5.35714rem 0 0 0;
   background-color: #cb1741;
