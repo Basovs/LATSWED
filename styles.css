@@ -272,6 +272,7 @@ nav .btn-contact-us {
 
 .hamburger-menu ul li {
   margin: 2rem 0 2rem -300px;
+  position: relative;
 }
 
 .hamburger-menu ul li a {
