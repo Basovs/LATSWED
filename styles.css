@@ -223,9 +223,6 @@ nav .nav-bar-ul {
 }
 
 nav ul {
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
   list-style: none;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
@@ -271,7 +268,7 @@ nav .btn-contact-us {
 }
 
 .hamburger-menu ul li {
-  margin: 2rem 0 2rem -300px;
+  margin: 0 0 0 -300px;
   position: relative;
 }
 
@@ -338,8 +335,6 @@ nav .btn-contact-us {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-  }
-  nav ul {
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
