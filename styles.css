@@ -252,7 +252,6 @@ nav .btn-contact-us {
 
 .hamburger-btn {
   z-index: 10000;
-  position: fixed;
   top: 0.45rem;
   right: 5%;
 }
