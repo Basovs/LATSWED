@@ -26,6 +26,7 @@
         inline-size: 100%;
         block-size: 5.35714rem;
         position: absolute;
+        top: 0;
         margin: 0 0 0 -1.07143rem;
     }
     .wrapper {
@@ -42,6 +43,14 @@
 
 @media (min-width: 640px) {
     .header {
+        &::before {
+            content: "";
+            background: linear-gradient(#00000085, #00000005);
+            inline-size: 100%;
+            block-size: 5.35714rem;
+            position: absolute;
+            margin: 0 0 0 -1.07143rem;
+        }
         .wrapper {
             display: flex;
             align-items: center;
