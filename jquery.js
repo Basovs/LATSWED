@@ -1,12 +1,12 @@
 $(document).ready(function() {
     $(".hamburger-btn").click(function() {
         $(".hamburger-menu").toggleClass("show")
-        $("body").toggleClass("position-fixed")
+        $("body").toggleClass("overflow-hidden")
     })
 
     $("a").click(function() {
         $(".hamburger-menu").toggleClass("show")
-        $("body").removeClass("position-fixed")
+        $("body").removeClass("overflow-hidden")
         $(".hamburger").toggleClass("is-active")
     })
 

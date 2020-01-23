@@ -137,8 +137,8 @@ nav {
     display: block;
 }
 //Prevents scrolling when hamburger menu is open
-.position-fixed {
-    position: fixed;
+.overflow-hidden {
+    overflow: hidden;
 }
 //Navbar trigger on scroll for JS
 .onScroll {

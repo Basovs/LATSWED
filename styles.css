@@ -291,8 +291,8 @@ nav .btn-contact-us {
   display: block;
 }
 
-.position-fixed {
-  position: fixed;
+.overflow-hidden {
+  overflow: hidden;
 }
 
 .onScroll {
