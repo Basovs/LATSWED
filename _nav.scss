@@ -48,7 +48,7 @@ nav {
     // background-color: #dfecff;
     position: sticky;
     top: 0;
-    width: 100%;
+    inline-size: 100%;
     block-size: 5.35714rem;
     z-index: 2;
     display: flex;
@@ -57,7 +57,7 @@ nav {
     padding: 0 5%;
     // margin-left: 100vw;
     transition: 0.2s all ease;
-    background: linear-gradient(#00000085, #00000005);
+    border-bottom: 1px solid transparent;
     .logo-wrapper {
         display: flex;
         align-items: center;

@@ -177,7 +177,7 @@ nav {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  width: 100%;
+  inline-size: 100%;
   block-size: 5.35714rem;
   z-index: 2;
   display: -webkit-box;
@@ -192,8 +192,7 @@ nav {
   padding: 0 5%;
   -webkit-transition: 0.2s all ease;
   transition: 0.2s all ease;
-  background: -webkit-gradient(linear, left top, left bottom, from(#00000085), to(#00000005));
-  background: linear-gradient(#00000085, #00000005);
+  border-bottom: 1px solid transparent;
 }
 
 nav .logo-wrapper {
@@ -371,6 +370,16 @@ nav .btn-contact-us {
   z-index: -2;
   -webkit-transition: 0.2s all ease;
   transition: 0.2s all ease;
+}
+
+.header::before {
+  content: "";
+  background: -webkit-gradient(linear, left top, left bottom, from(#00000085), to(#00000005));
+  background: linear-gradient(#00000085, #00000005);
+  inline-size: 100%;
+  block-size: 5.35714rem;
+  position: absolute;
+  margin: 0 0 0 -1.07143rem;
 }
 
 .header .wrapper .wellcomeText {
