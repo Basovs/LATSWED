@@ -218,8 +218,11 @@ nav .logo-wrapper .logo {
   margin: 0 0 0 0.8rem;
 }
 
-nav ul {
+nav .nav-bar-ul {
   display: none;
+}
+
+nav ul {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
@@ -334,10 +337,12 @@ nav .btn-contact-us {
 }
 
 @media (min-width: 1126px) {
-  nav ul {
+  nav .nav-bar-ul {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+  }
+  nav ul {
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;

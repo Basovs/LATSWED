@@ -73,8 +73,10 @@ nav {
             margin: 0 0 0 0.8rem;
         }
     }
-    ul {
+    .nav-bar-ul {
         display: none;
+    }
+    ul {
         justify-content: space-evenly;
         list-style: none;
         flex-wrap: wrap;
@@ -177,8 +179,10 @@ nav {
 
 @media (min-width: 1126px) {
     nav {
-        ul {
+        .nav-bar-ul {
             display: flex;
+        }
+        ul {
             justify-content: space-evenly;
             list-style: none;
             flex-wrap: wrap;
