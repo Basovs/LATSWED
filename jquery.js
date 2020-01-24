@@ -4,7 +4,7 @@ $(document).ready(function() {
         $("body").toggleClass("overflow-hidden")
     })
 
-    $("a").click(function() {
+    $(".hamburger-a").click(function() {
         $(".hamburger-menu").toggleClass("show")
         $("body").removeClass("overflow-hidden")
         $(".hamburger").toggleClass("is-active")
