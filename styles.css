@@ -365,11 +365,15 @@ nav .btn-contact-us {
 
 .header {
   margin: -5.35714rem 0 0 0;
-  background-color: #cb1741;
+  background-image: url(img/header.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 7.375rem 1.07143rem;
   z-index: -2;
   -webkit-transition: 0.2s all ease;
   transition: 0.2s all ease;
+  position: relative;
 }
 
 .header::before {
@@ -383,8 +387,20 @@ nav .btn-contact-us {
   margin: 0 0 0 -1.07143rem;
 }
 
+.header::after {
+  content: "";
+  block-size: 100%;
+  inline-size: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(#00000085), to(#00000099));
+  background: linear-gradient(#00000085, #00000099);
+  background-color: #cb174130;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
 .header .wrapper .wellcomeText {
-  z-index: 1;
   color: #ffffff;
 }
 

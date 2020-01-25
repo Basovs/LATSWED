@@ -1,25 +1,15 @@
 .header {
     // block-size: 446px;
     margin: -5.35714rem 0 0 0;
-    background-color: #cb1741;
-    // background-image: url(img/jaunaa2.jpg);
-    // background-position: center;
-    // background-repeat: no-repeat;
-    // background-size: cover;
+    background-image: url(img/header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 7.375rem 1.07143rem;
     z-index: -2;
     transition: 0.2s all ease;
-    // position: relative;
-    // &::after {
-    //     content: "";
-    //     block-size: 100vh;
-    //     inline-size: 100vw;
-
-    //     position: absolute;
-    //     top: 0;
-    //     left: 0;
-    // z-index: -1;
-    // }
+    position: relative;
+    //Nav Shadow with 1px bottom border
     &::before {
         content: "";
         background: linear-gradient(#00000085, #00000005);
@@ -29,9 +19,20 @@
         top: 0;
         margin: 0 0 0 -1.07143rem;
     }
+    //Header Overlay
+    &::after {
+        content: "";
+        block-size: 100%;
+        inline-size: 100%;
+        background: linear-gradient(#00000085, #00000099);
+        background-color: #cb174130;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
     .wrapper {
         .wellcomeText {
-            z-index: 1;
             color: #ffffff;
             h1 {
                 font-size: 3.42857rem;
