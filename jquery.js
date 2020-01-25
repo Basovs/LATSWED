@@ -30,4 +30,10 @@ $(document).ready(function() {
             .delay(400)
             .animate({ left: "280px" }, 160)
     })
+
+    // jQuery(".professions__professions-container article").each(function(i) {
+    //     setTimeout(() => {
+    //         this.addClass("animated fadeInUp")
+    //     }, 250 * i)
+    // })
 })

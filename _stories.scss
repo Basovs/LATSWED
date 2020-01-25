@@ -39,7 +39,7 @@
             flex-direction: row-reverse;
             &:nth-child(odd) {
                 .article-div {
-                    justify-content: end;
+                    justify-content: flex-end;
                 }
             }
             &:nth-child(even) {

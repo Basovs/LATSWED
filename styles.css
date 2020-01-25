@@ -533,7 +533,7 @@ nav .btn-contact-us {
   .stories__item:nth-child(odd) .article-div {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
-            justify-content: end;
+            justify-content: flex-end;
   }
   .stories__item:nth-child(even) {
     -webkit-box-orient: horizontal;
