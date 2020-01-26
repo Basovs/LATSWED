@@ -174,16 +174,22 @@ nav {
     }
 }
 
-@media (min-width: 1126px) {
+@media (min-width: 880px) {
     nav {
+        padding: 0 1.25%;
         .nav-bar-ul {
             display: flex;
             justify-content: space-evenly;
             list-style: none;
             flex-wrap: wrap;
         }
+    }
+}
+
+@media (min-width: 1126px) {
+    nav {
         .btn-contact-us {
-            display: block;
+            display: none;
             font-family: inherit;
             padding: 0.71429rem 1.07143rem;
             border-radius: 0.28571rem;
@@ -200,8 +206,5 @@ nav {
                 border-color: #000000;
             }
         }
-    }
-    .hamburger-btn {
-        display: none;
     }
 }

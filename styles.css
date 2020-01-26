@@ -329,7 +329,10 @@ nav .btn-contact-us {
   }
 }
 
-@media (min-width: 1126px) {
+@media (min-width: 880px) {
+  nav {
+    padding: 0 1.25%;
+  }
   nav .nav-bar-ul {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -341,8 +344,11 @@ nav .btn-contact-us {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
+}
+
+@media (min-width: 1126px) {
   nav .btn-contact-us {
-    display: block;
+    display: none;
     font-family: inherit;
     padding: 0.71429rem 1.07143rem;
     border-radius: 0.28571rem;
@@ -357,9 +363,6 @@ nav .btn-contact-us {
     background-color: #000000;
     color: #ffffff;
     border-color: #000000;
-  }
-  .hamburger-btn {
-    display: none;
   }
 }
 
@@ -702,7 +705,7 @@ nav .btn-contact-us {
 }
 
 .professions {
-  padding: 3.57143rem 1.42857rem;
+  padding: 0 1.42857rem 3.57143rem 1.42857rem;
   background-color: #ffffff;
 }
 
@@ -733,7 +736,7 @@ nav .btn-contact-us {
 
 @media (min-width: 632px) {
   .professions__professions-container__item {
-    inline-size: 165px;
+    inline-size: unset;
   }
 }
 
