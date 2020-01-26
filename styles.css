@@ -737,6 +737,40 @@ nav .btn-contact-us {
   }
 }
 
+.fade-in {
+  opacity: 0;
+  -webkit-transition: opacity 200ms ease-in;
+  transition: opacity 200ms ease-in;
+}
+
+.fade-in.appear {
+  opacity: 1;
+}
+
+.from-right {
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-column: 3 / 4;
+  -webkit-transform: translateX(50%);
+          transform: translateX(50%);
+}
+
+.from-left,
+.from-right {
+  -webkit-transition: opacity 200ms ease-in, -webkit-transform 400ms ease-in;
+  transition: opacity 200ms ease-in, -webkit-transform 400ms ease-in;
+  transition: opacity 200ms ease-in, transform 400ms ease-in;
+  transition: opacity 200ms ease-in, transform 400ms ease-in, -webkit-transform 400ms ease-in;
+  opacity: 0;
+}
+
+.from-left.appear,
+.from-right.appear {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  opacity: 1;
+}
+
 .about-us {
   background-color: #ffffff;
   padding: 3.57143rem 1.42857rem;
