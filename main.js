@@ -86,3 +86,33 @@ faders.forEach(fader => {
 sliders.forEach(slider => {
     appearOnScroll.observe(slider)
 })
+
+// JSON handler
+const btn = document.querySelector("#loadBtn")
+const renderDiv = document.querySelector("#renderDiv")
+// const url = "https://api.netlify.com/api/v1/sites/www.latswed.se"
+
+btn.addEventListener("click", function() {
+    const url =
+        "https://api.netlify.com/api/v1/sites/0a85b933-d0ea-4ec7-b217-1648cf413bcd/forms"
+    fetch(url)
+        .then(response => {
+            return response.json()
+        })
+        .then(data => {
+            // console.log(data)
+
+            data.forEach(element => {
+                console.log(element)
+            })
+        })
+    // load(url, cb)
+})
+
+// function cb(xhr) {
+//     const json = JSON.parse(xhr.responseText)
+//     console.log(json)
+// const arr = json.names
+// const name = arr[0]
+//     renderDiv.innerHTML = json
+// }
